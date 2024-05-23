@@ -18,8 +18,6 @@ class FindYourNeedsApp extends StatefulWidget {
 }
 
 class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
-  // Timer
-  late final Timer _locationGrabTimer;
   late double long;
   late double lat;
 
@@ -27,25 +25,7 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
   @override
   initState(){
     super.initState();
-
-    // final singleUsePositionProvider = Provider.of<PositionProvider>(context, listen: false);
-
-    // long = singleUsePositionProvider.longitude;
-    // lat = singleUsePositionProvider.latitude;
-
-    // // Periodic Timer to run updating weather
-    // _locationGrabTimer = Timer.periodic(const Duration(seconds: 60), (timer) {
-    //   long = singleUsePositionProvider.longitude;
-    //   lat = singleUsePositionProvider.latitude; 
-    // });
   }
-
-  // Disposes timer when we don't need it
-  // @override 
-  // dispose(){
-  //   _locationGrabTimer.cancel();
-  //   super.dispose();
-  // }
 
   @override
   Widget build(BuildContext context) {
