@@ -1,8 +1,9 @@
-import 'package:flutter/material.dart';
+import 'package:final_project_app/map/location_service.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:flutter/material.dart';
 
 class MapScreen extends StatefulWidget {
-  const MapScreen({Key? key}) : super(key: key);
+  const MapScreen({super.key});
 
   @override
   _MapScreenState createState() => _MapScreenState();
@@ -10,13 +11,24 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   late GoogleMapController mapController;
-
-  final LatLng _center =
-      const LatLng(47.606209, -122.332069); // Default center (San Francisco)
+  final LatLng _center = const LatLng(47.6062, -122.3321); // (seattle is center for now: will change to users location)
+  List<Marker> _markers = [];
 
   void _onMapCreated(GoogleMapController controller) {
-    setState(() {
-      mapController = controller;
+    mapController = controller;
+    loadLocations().then((locations) {
+      setState(() {
+        _markers = locations.map((location) {
+          return Marker(
+            markerId: MarkerId(location.name),
+            position: LatLng(location.latitude, location.longitude),
+            infoWindow: InfoWindow(
+              title: location.name,
+              snippet: location.address,
+            ),
+          );
+        }).toList();
+      });
     });
   }
 
@@ -33,6 +45,7 @@ class _MapScreenState extends State<MapScreen> {
           target: _center,
           zoom: 11.0,
         ),
+        markers: Set<Marker>.of(_markers),
       ),
     );
   }
