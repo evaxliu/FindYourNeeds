@@ -49,33 +49,39 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Consumer<PositionProvider>( 
-        builder: (context, positionProvider, child) {
-          if(positionProvider.positionKnown) {
-            // Sort venues by nearest to furthest
-            List<Location> nearestLocations = widget.locations.nearestTo(latitude: positionProvider.latitude, longitude: positionProvider.longitude);
-            // Create individual Column -> ListTile widgets to display restaurant info
-            List<Widget> locationWidgets = nearestLocations.map((location) {
-              return LocationWidget(
-                location: location,
-                positionProvider: positionProvider,
-              );
-            }).toList();
-            // Create Center -> Card -> Column widget to hold ListTile widgets
-            return Center(
-              child: Card(
-                child: Column(
-                  children: locationWidgets,
-                ),
-              ),
-            );
-          } else {
-            // Display text if position isn't known
-            return const LoadingWidget();
-          }
-        }
-      ),
+    return MaterialApp(
+      home: SafeArea(
+        child: Scaffold(
+          body: SingleChildScrollView(
+            child: Consumer<PositionProvider>( 
+              builder: (context, positionProvider, child) {
+                if(positionProvider.positionKnown) {
+                  // Sort venues by nearest to furthest
+                  List<Location> nearestLocations = widget.locations.nearestTo(latitude: positionProvider.latitude, longitude: positionProvider.longitude);
+                  // Create individual Column -> ListTile widgets to display restaurant info
+                  List<Widget> locationWidgets = nearestLocations.map((location) {
+                    return LocationWidget(
+                      location: location,
+                      positionProvider: positionProvider,
+                    );
+                  }).toList();
+                  // Create Center -> Card -> Column widget to hold ListTile widgets
+                  return Center(
+                    child: Card(
+                      child: Column(
+                        children: locationWidgets,
+                      ),
+                    ),
+                  );
+                } else {
+                  // Display text if position isn't known
+                  return const LoadingWidget();
+                }
+              }
+            ),
+          )
+        )
+      )
     );
   }
 }
