@@ -2,15 +2,13 @@ import 'dart:convert';
 
 import 'package:final_project_app/models/location.dart';
 
-
-class VenuesDB{
+class LocationsDB{
   final List<Location> _venues;
 
   List<Location> get all{
     return List<Location>.from(_venues, growable: false);
   }
 
-  // TODO(you): Add nearestTo method here
   // Orders the restaurants by nearest to furthest from our position
   // Params:
   //  - max: int set to 999
@@ -23,7 +21,7 @@ class VenuesDB{
     return _venues.take(max).toList();
   }
 
-  VenuesDB.initializeFromJson(String jsonString) : _venues = _decodeVenueListJson(jsonString);
+  LocationsDB.initializeFromJson(String jsonString) : _venues = _decodeVenueListJson(jsonString);
 
   static List<Location> _decodeVenueListJson(String jsonString){
     final listMap = jsonDecode(jsonString);

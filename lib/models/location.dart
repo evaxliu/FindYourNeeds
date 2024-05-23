@@ -6,10 +6,6 @@ import 'dart:math';
 /// the star denotes the source file name.
 part 'location.g.dart';
 
-// See documentation here https://docs.flutter.dev/data-and-backend/serialization/json#creating-model-classes-the-json_serializable-way
-// After changing this class, it is essential to run `dart run build_runner build --delete-conflicting-outputs` from the root of the project.
-
-
 @JsonSerializable()
 class Location{
   Location({required this.name, 

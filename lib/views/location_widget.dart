@@ -17,6 +17,10 @@ class LocationWidget extends StatelessWidget {
     return Column(
       children: <Widget>[
         ListTile(
+          leading: Semantics(
+            label: location.name,
+            // child: Icon(),
+          ),
           title: Text(location.name),
           subtitle: Text('Distance: ${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble().toString()} meters'),
           ),
