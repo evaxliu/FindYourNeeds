@@ -11,7 +11,6 @@ Future<LocationsDB> loadLocationsDB(String dataPath) async {
 }
 
 void main() {
-  // Change this to the cvs file to obtain info
   const dataPath = 'assets/locations.json';
   WidgetsFlutterBinding.ensureInitialized();
   loadLocationsDB(dataPath).then((value) => runApp(

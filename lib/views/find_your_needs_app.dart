@@ -27,23 +27,25 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
   @override
   initState(){
     super.initState();
-    // ---> Your code from the Weather app may be helpful to refer to
-    // Weather provider
-    final singleUsePositionProvider = Provider.of<PositionProvider>(context, listen: false);
 
-    // Periodic Timer to run updating weather
-    _locationGrabTimer = Timer.periodic(const Duration(seconds: 60), (timer) {
-      long = singleUsePositionProvider.longitude;
-      lat = singleUsePositionProvider.latitude; 
-    });
+    // final singleUsePositionProvider = Provider.of<PositionProvider>(context, listen: false);
+
+    // long = singleUsePositionProvider.longitude;
+    // lat = singleUsePositionProvider.latitude;
+
+    // // Periodic Timer to run updating weather
+    // _locationGrabTimer = Timer.periodic(const Duration(seconds: 60), (timer) {
+    //   long = singleUsePositionProvider.longitude;
+    //   lat = singleUsePositionProvider.latitude; 
+    // });
   }
 
   // Disposes timer when we don't need it
-  @override 
-  dispose(){
-    _locationGrabTimer.cancel();
-    super.dispose();
-  }
+  // @override 
+  // dispose(){
+  //   _locationGrabTimer.cancel();
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {

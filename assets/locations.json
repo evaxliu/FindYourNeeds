@@ -5,12 +5,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Hutchinson Playground",
+    "name": "Hutchinson Playground",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "77 S. Washington St, Seattle, WA 98104",
@@ -18,12 +18,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Hygiene Center",
+    "name": "Hygiene Center",
     "Population": "Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "201 Lakeside Ave. S, Seattle, WA 98122",
@@ -31,12 +31,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Leschi Park",
+    "name": "Leschi Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "330 19th Ave E, Seattle, WA 98112",
@@ -44,12 +44,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Miller Community Center",
+    "name": "Miller Community Center",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "333 Pontius Ave. N, Seattle, WA 98109",
@@ -57,12 +57,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Cascade Playground",
+    "name": "Cascade Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "352 Martin Luther King Jr. Way, Seattle, WA 98112",
@@ -70,12 +70,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Powell Barnett Park",
+    "name": "Powell Barnett Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "400 W Garfield St, Seattle, WA 98119",
@@ -83,12 +83,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Queen Anne Branch",
+    "name": "Queen Anne Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "416 2nd Ave Extension S, Seattle, WA 98104",
@@ -96,12 +96,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Lazarus Day Center",
+    "name": "Lazarus Day Center",
     "Population": "Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "425 Harvard Ave E, Seattle, WA 98102",
@@ -109,12 +109,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Capitol Hill Branch",
+    "name": "Capitol Hill Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "500 23rd Ave, Seattle, WA 98122",
@@ -122,12 +122,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Medgar Evars Pool",
+    "name": "Medgar Evars Pool",
     "Population": "families",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "517 3rd Ave, Seattle, WA 98104",
@@ -135,12 +135,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Morrison Day Center",
+    "name": "Morrison Day Center",
     "Population": "Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "537 25th Ave., Seattle, WA 98122",
@@ -148,12 +148,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Garfield Playfield",
+    "name": "Garfield Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "611 12th Ave S, Seattle, WA 98144",
@@ -161,12 +161,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Chief Seattle Club Day Center",
+    "name": "Chief Seattle Club Day Center",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "713 8th Ave S, Seattle, WA 98104",
@@ -174,12 +174,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "International District/Chinatown Branch",
+    "name": "International District/Chinatown Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "731 N 35th St, Seattle, WA 98103",
@@ -187,12 +187,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Fremont Branch",
+    "name": "Fremont Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "750 S Homer St., Seattle, WA 98108",
@@ -200,12 +200,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Georgetown Playfield",
+    "name": "Georgetown Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "853 Lake Washington Blvd., Seattle, WA 98122",
@@ -213,12 +213,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Madrona Park",
+    "name": "Madrona Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "899 W Olympic Pl., Seattle, WA 98119",
@@ -226,12 +226,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Kinnear Park",
+    "name": "Kinnear Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "901 Rainier Ave S, Seattle, WA 98144",
@@ -239,12 +239,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Peter's Place Day Center",
+    "name": "Peter's Place Day Center",
     "Population": "Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "923 NW 54th St., Seattle, WA 98107",
@@ -252,12 +252,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Gilman Playground",
+    "name": "Gilman Playground",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "950 NW Carkeek Park Rd., Seattle, WA 98177",
@@ -265,12 +265,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Carkreek Park",
+    "name": "Carkreek Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "1000 4th Ave, Seattle, WA 98104",
@@ -278,12 +278,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Central Library",
+    "name": "Central Library",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1000 N 50th St,. Seattle, WA 98103",
@@ -291,12 +291,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Woodland Park",
+    "name": "Woodland Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "1007 12th Ave. S, Seattle, WA 98144",
@@ -304,12 +304,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Dr. Jose Rizal Park",
+    "name": "Dr. Jose Rizal Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1017 Lake Washington Blvd E, Seattle, WA 98112",
@@ -317,12 +317,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Washington Park Playfield",
+    "name": "Washington Park Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1020 NE 82nd St., Seattle, WA 98115",
@@ -330,12 +330,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Maple Leaf Reservoir Park",
+    "name": "Maple Leaf Reservoir Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "1100 SW Cloverdale St., Seattle, WA 98106",
@@ -343,12 +343,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Highland Park Playground",
+    "name": "Highland Park Playground",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "1134 33rd Ave, Seattle, WA 98122",
@@ -356,12 +356,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Madrona-Sally Goldmark Branch",
+    "name": "Madrona-Sally Goldmark Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1155 N 130th St, Seattle, WA 98133",
@@ -369,12 +369,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Family Center",
+    "name": "Family Center",
     "Population": "Families",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "1215 Thomas Street, Seattle, WA 98109",
@@ -382,12 +382,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Hygiene & Day Center",
+    "name": "Hygiene & Day Center",
     "Population": "Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1222 Harbor Ave. SW, Seattle, WA 98116",
@@ -395,12 +395,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Don Armeni Boat Ramp",
+    "name": "Don Armeni Boat Ramp",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "1247 15th Ave. E, Seattle, WA 98112",
@@ -408,12 +408,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Volunteer Park",
+    "name": "Volunteer Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1253 S Jackson St, Seattle, WA 98144",
@@ -421,12 +421,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Jackson Street",
+    "name": "Jackson Street",
     "Population": "Youth & Young Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1265 S Main St, Ste 105, Seattle, WA 98144",
@@ -434,12 +434,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Day/Hygiene Center",
+    "name": "Day/Hygiene Center",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1400 Martin Luther King Jr. Way S., Seattle, WA 98144",
@@ -447,12 +447,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Sam Smith Park",
+    "name": "Sam Smith Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1415 NE 43rd St, Seattle, WA 98105",
@@ -460,12 +460,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Urban Rest Stop - University District",
+    "name": "Urban Rest Stop - University District",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "1461 Magnolia Blvd. W, Seattle, WA 98199",
@@ -473,12 +473,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Magnolia Park",
+    "name": "Magnolia Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "1471 NW 67th St, Seattle, WA 98117",
@@ -486,12 +486,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Ballard Pool",
+    "name": "Ballard Pool",
     "Population": "families",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "1501 N 45th St, Seattle, WA 98103",
@@ -499,12 +499,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Wallingford Branch",
+    "name": "Wallingford Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "1590 NW 90th St., Seattle, WA 98117",
@@ -512,12 +512,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Soundview Playfield",
+    "name": "Soundview Playfield",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "1609 19th Ave, Seattle, WA 98122",
@@ -525,12 +525,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Homeless Youth for Peace and Empowerment (HYPE)",
+    "name": "Homeless Youth for Peace and Empowerment (HYPE)",
     "Population": "Youth & Young Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1618 E Calhoun St., Seattle, WA 98112",
@@ -538,12 +538,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Montlake Playfield",
+    "name": "Montlake Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1635 11th Ave., Seattle, WA 98122",
@@ -551,12 +551,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Cal Anderson Park",
+    "name": "Cal Anderson Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1660 Harbor Ave. SW, Seattle, WA 98126",
@@ -564,12 +564,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Seacrest Park",
+    "name": "Seacrest Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "1702 Alki Ave. SW, Seattle, WA 98116",
@@ -577,12 +577,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Alki Beach Park",
+    "name": "Alki Beach Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "1730 Bradner Pl. S, Seattle, WA 98144",
@@ -590,12 +590,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Bradner Gardens Park",
+    "name": "Bradner Gardens Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1800 Lake Washington Blvd. S, Seattle, WA 98144",
@@ -603,12 +603,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Colman Playground",
+    "name": "Colman Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1800 S Main St., Seattle, WA 98144",
@@ -616,12 +616,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Pratt Park",
+    "name": "Pratt Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1828 Yale Ave, Seattle, WA 98101",
@@ -629,12 +629,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Orion Center",
+    "name": "Orion Center",
     "Population": "Youth & Young Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1902 13th Ave. S, Seattle, WA 98144",
@@ -642,12 +642,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Beacon Hill Playfield",
+    "name": "Beacon Hill Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "1912 Warren Ave. N, Seattle, WA 98109",
@@ -655,12 +655,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "East Queen Anne Playground",
+    "name": "East Queen Anne Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "1920 1st Ave W, Seattle, WA 98119",
@@ -668,12 +668,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Queen Anne Pool",
+    "name": "Queen Anne Pool",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "1924 9th Ave, Seattle, WA 98101",
@@ -681,12 +681,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Urban Rest Stop - Downtown",
+    "name": "Urban Rest Stop - Downtown",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2001 NW Canoe Pl., Seattle, WA 98117",
@@ -694,12 +694,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Salmon Bay Park",
+    "name": "Salmon Bay Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "2014 NW 57th St, Seattle, WA 98107",
@@ -707,12 +707,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Urban Rest Stop - Ballard",
+    "name": "Urban Rest Stop - Ballard",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "2030 3rd Ave, Seattle, WA 98121",
@@ -720,12 +720,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Angeline's Day Center",
+    "name": "Angeline's Day Center",
     "Population": "Adult Women",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2100 S Jackson St., Seattle, WA 98144",
@@ -733,12 +733,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Dr. Blanche Lavizzo Park",
+    "name": "Dr. Blanche Lavizzo Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2101 N Northlake Way, Seattle, WA 98103",
@@ -746,12 +746,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Gas Works Park",
+    "name": "Gas Works Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2150 S Norman St., Seattle, WA 98144",
@@ -759,12 +759,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Judkins Park and Playfield",
+    "name": "Judkins Park and Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2300 E Yesler Way, Seattle, WA 98122",
@@ -772,12 +772,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Douglass-Truth Branch",
+    "name": "Douglass-Truth Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2306 42nd Ave SW, Seattle, WA 98116",
@@ -785,12 +785,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "West Seattle Branch",
+    "name": "West Seattle Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "2401 24th Ave E, Seattle, WA 98112",
@@ -798,12 +798,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Montlake Branch",
+    "name": "Montlake Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2518 34th Ave. W, Seattle, WA 98199",
@@ -811,12 +811,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Magnolia Playfield",
+    "name": "Magnolia Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "2521 Lake Park Dr. S, Seattle, WA 98144",
@@ -824,12 +824,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Mount Baker Park",
+    "name": "Mount Baker Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2614 24th Ave. W, Seattle, WA 98199",
@@ -837,12 +837,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Bayview Playground",
+    "name": "Bayview Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "2700 California Ave. SW, Seattle, WA 98116",
@@ -850,12 +850,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Hiawatha Playfield",
+    "name": "Hiawatha Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "2709 3rd Avenue Seattle, WA 98121",
@@ -863,12 +863,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "Drop In and Young Adult Emergency Shelter",
+    "name": "Drop In and Young Adult Emergency Shelter",
     "Population": "Youth & Young Adults",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2800 1st Ave. W, Seattle, WA 98119",
@@ -876,12 +876,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "David Rodgers Park",
+    "name": "David Rodgers Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "2801 34th Ave W, Seattle, WA 98199",
@@ -889,12 +889,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Magnolia Branch",
+    "name": "Magnolia Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "2801 SW Thistle St, Seattle, WA 98126",
@@ -902,12 +902,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Southwest Pool",
+    "name": "Southwest Pool",
     "Population": "families",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "2805 SW Holden St., Seattle, WA 98126",
@@ -915,12 +915,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "E.C. Hughes Playground",
+    "name": "E.C. Hughes Playground",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "2821 Beacon Ave S, Seattle, WA 98144",
@@ -928,12 +928,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Beacon Hill Branch",
+    "name": "Beacon Hill Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "2850 SW Roxbury St., Seattle, WA 98126",
@@ -941,12 +941,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Roxhill Park",
+    "name": "Roxhill Park",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "3027 17th Ave. W, Seattle, WA 98119",
@@ -954,12 +954,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Interbay Athletic Complex",
+    "name": "Interbay Athletic Complex",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "3211 E Spring St., Seattle, WA 98122",
@@ -967,12 +967,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Madrona Playground",
+    "name": "Madrona Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "3233 E Spruce St., Seattle, WA 98122",
@@ -980,12 +980,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Peppi's Playground",
+    "name": "Peppi's Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "3411 SW Raymond St, Seattle, WA 98126",
@@ -993,12 +993,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "High Point Branch",
+    "name": "High Point Branch",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "3700 S Alaska St., Seattle, WA 98118",
@@ -1006,12 +1006,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Rainier Playfield",
+    "name": "Rainier Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "3801 Beacon Ave. S, Seattle, WA 98108",
@@ -1019,12 +1019,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Jefferson Park",
+    "name": "Jefferson Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "3801 Discovery Park Blvd., Seattle, WA 98199",
@@ -1032,12 +1032,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Discovery Park",
+    "name": "Discovery Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "4201 E Madison St., Seattle, WA 98112",
@@ -1045,12 +1045,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Madison Park",
+    "name": "Madison Park",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "4219 Wallingford Ave. N, Seattle, WA 98103",
@@ -1058,12 +1058,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Wallingford Playfield",
+    "name": "Wallingford Playfield",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "4316 S Genesee St., Seattle, WA 98118",
@@ -1071,12 +1071,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Genesee Park and Playfield",
+    "name": "Genesee Park and Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "4351 S Othello St., Seattle, WA 98118",
@@ -1084,12 +1084,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Othello Playground",
+    "name": "Othello Playground",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "4408 NE 70th St., Seattle, WA 98115",
@@ -1097,12 +1097,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "View Ridge Playfield",
+    "name": "View Ridge Playfield",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "4458 Delridge Way SW, Seattle, WA 98106",
@@ -1110,12 +1110,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Delridge Playfield",
+    "name": "Delridge Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "4501 Delridge Way SW, Seattle, WA 98106",
@@ -1123,12 +1123,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Delridge Community Center",
+    "name": "Delridge Community Center",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "4516 15th Ave NE, Seattle, WA 98105",
@@ -1136,12 +1136,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Human Services Department",
+    "Agency name (group)": "Human Services Department",
     "Accessible by": "People Experiencing Homelessness",
-    "Location Name": "University District Youth Center",
+    "name": "University District Youth Center",
     "Population": "Youth & Young Adults",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "4600 38th Ave S, Seattle, WA 98118",
@@ -1149,12 +1149,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Rainier Community Center",
+    "name": "Rainier Community Center",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "4649 Sunnyside Ave. N, Seattle, WA 98103",
@@ -1162,12 +1162,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Meridian Playground",
+    "name": "Meridian Playground",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "4721 Rainier Ave S, Seattle, WA 98118",
@@ -1175,12 +1175,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Columbia Branch",
+    "name": "Columbia Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "4745 9th Ave. NE, Seattle, WA 98105",
@@ -1188,12 +1188,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "University Playground",
+    "name": "University Playground",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "4801 Corson Ave. S, Seattle, WA 98108",
@@ -1201,12 +1201,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Maple Wood Playfield",
+    "name": "Maple Wood Playfield",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "5009 Roosevelt Way NE, Seattle, WA 98105",
@@ -1214,12 +1214,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "University Branch",
+    "name": "University Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "5013 S Angeline St. Seattle, WA 98118",
@@ -1227,12 +1227,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Lakewood Playground",
+    "name": "Lakewood Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.3
+    "latitude": 47.6,
+    "longitude": -122.3
   },
   {
     "Address": "5100 NE 93rd St., Seattle, WA 98115",
@@ -1240,12 +1240,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Matthews Beach Park",
+    "name": "Matthews Beach Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "5200 35th Ave. SW, Seattle, WA 98126",
@@ -1253,12 +1253,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Camp Long",
+    "name": "Camp Long",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "5201 Sand Point Wy. NE, Seattle, WA 98105",
@@ -1266,12 +1266,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Burke-Gilman Playground Park",
+    "name": "Burke-Gilman Playground Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "5400 Fauntleroy Way SW, Seattle, WA 98136",
@@ -1279,12 +1279,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Fairmount Playground",
+    "name": "Fairmount Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "5423 Delridge Way SW, Seattle, WA 98106",
@@ -1292,12 +1292,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Delridge Branch",
+    "name": "Delridge Branch",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "5520 Ravenna Ave. NE, Seattle, WA 98105",
@@ -1305,12 +1305,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Ravenna Park",
+    "name": "Ravenna Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "5614 22nd Ave NW, Seattle, WA 98107",
@@ -1318,12 +1318,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Ballard Branch",
+    "name": "Ballard Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "5817 SW Lander St., Seattle, WA 98116",
@@ -1331,12 +1331,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Alki Playground",
+    "name": "Alki Playground",
     "Population": "All",
-    "Latitude": 47.6,
-    "Longitude": -122.4
+    "latitude": 47.6,
+    "longitude": -122.4
   },
   {
     "Address": "5849 15th Ave. NE, Seattle, WA 98105",
@@ -1344,12 +1344,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Cowen Park",
+    "name": "Cowen Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "5900 Lake Washington Blvd. S, Seattle, WA 98118",
@@ -1357,12 +1357,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Seward Park",
+    "name": "Seward Park",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "6000 39th Ave. S, Seattle, WA 98118",
@@ -1370,12 +1370,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Brighton Playfield",
+    "name": "Brighton Playfield",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "6801 35th Ave NE, Seattle, WA 98115",
@@ -1383,12 +1383,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Northeast Branch",
+    "name": "Northeast Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "6920 34th Ave. SW, Seattle, WA 98126",
@@ -1396,12 +1396,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Walt Hundley Playfield",
+    "name": "Walt Hundley Playfield",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "6961 37th Ave. S, Seattle, WA 98118",
@@ -1409,12 +1409,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "John C. Little Sr. Park",
+    "name": "John C. Little Sr. Park",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "7050 Beacon Ave. S, Seattle, WA 98108",
@@ -1422,12 +1422,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Van Asselt Playground",
+    "name": "Van Asselt Playground",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "7058 32nd Ave S # 104, Seattle, WA 98118",
@@ -1435,12 +1435,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "NewHolly Branch",
+    "name": "NewHolly Branch",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "7201 E Green Lake Dr N, Seattle, WA 98115",
@@ -1448,12 +1448,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Green Lake Community Center",
+    "name": "Green Lake Community Center",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "7201 E Green Lake Dr. N, Seattle, WA 98115",
@@ -1461,12 +1461,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Green Lake Park",
+    "name": "Green Lake Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "7226 12th Ave. SW, Seattle, WA 98106",
@@ -1474,12 +1474,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Riverview Playfield",
+    "name": "Riverview Playfield",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "7364 East Green Lake Dr N, Seattle, WA 98115",
@@ -1487,12 +1487,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Green Lake Branch",
+    "name": "Green Lake Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "7400 Sand Point Way NE, Seattle, WA 98115",
@@ -1500,12 +1500,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Magnuson Park",
+    "name": "Magnuson Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "7700 25th Ave. NE, Seattle, WA 98115",
@@ -1513,12 +1513,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Dahl (Waldo J.) Playfield",
+    "name": "Dahl (Waldo J.) Playfield",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "8011 Fauntleroy Way SW, Seattle, WA 98136",
@@ -1526,12 +1526,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Lincoln Park",
+    "name": "Lincoln Park",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "8016 Greenwood Ave N, Seattle, WA 98103",
@@ -1539,12 +1539,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Greenwood Branch",
+    "name": "Greenwood Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "8498 Seaview Pl. NW, Seattle, WA 98117",
@@ -1552,12 +1552,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Golden Gardens Park",
+    "name": "Golden Gardens Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "8604 8th Ave S, Seattle, WA 98108",
@@ -1565,12 +1565,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "South Park Branch",
+    "name": "South Park Branch",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "8650 55th Ave. S, Seattle, WA 98118",
@@ -1578,12 +1578,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Beer Sheva Park",
+    "name": "Beer Sheva Park",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "8702 Seward Park Ave. S, Seattle, WA 98118",
@@ -1591,12 +1591,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Atlantic City Boat Ramp",
+    "name": "Atlantic City Boat Ramp",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "8802 Rainier Ave. S, Seattle, WA 98118",
@@ -1604,12 +1604,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Rainier Beach Playfield",
+    "name": "Rainier Beach Playfield",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "8825 Rainier Ave S, Seattle, WA 98118",
@@ -1617,12 +1617,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Rainier Beach Pool",
+    "name": "Rainier Beach Pool",
     "Population": "families",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "8905 Fremont Ave. N, Seattle, WA 98103",
@@ -1630,12 +1630,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Greenwood Park",
+    "name": "Greenwood Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "9000 8th Ave. SW, Seattle, WA 98106",
@@ -1643,12 +1643,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Westcrest Park",
+    "name": "Westcrest Park",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "9010 35th Ave SW, Seattle, WA 98126",
@@ -1656,12 +1656,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Southwest Branch",
+    "name": "Southwest Branch",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.4
+    "latitude": 47.5,
+    "longitude": -122.4
   },
   {
     "Address": "9053 1st Ave., NW, Seattle, WA 98117",
@@ -1669,12 +1669,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Sandel Playground",
+    "name": "Sandel Playground",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "9125 Rainier Ave S, Seattle, WA 98118",
@@ -1682,12 +1682,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Rainier Branch",
+    "name": "Rainier Branch",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.3
+    "latitude": 47.5,
+    "longitude": -122.3
   },
   {
     "Address": "9536 Ashworth Ave. N, Seattle, WA 98103",
@@ -1695,12 +1695,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Licton Springs Park",
+    "name": "Licton Springs Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "10145 Rainier Ave. S, Seattle, WA 98178",
@@ -1708,12 +1708,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Lakeridge Playfield",
+    "name": "Lakeridge Playfield",
     "Population": "All",
-    "Latitude": 47.5,
-    "Longitude": -122.2
+    "latitude": 47.5,
+    "longitude": -122.2
   },
   {
     "Address": "10515 35th Ave NE, Seattle, WA 98125",
@@ -1721,12 +1721,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Meadowbrook Pool",
+    "name": "Meadowbrook Pool",
     "Population": "families",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "10533 35th Ave. NE, Seattle, WA 98125",
@@ -1734,12 +1734,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Meadowbrook Playfield",
+    "name": "Meadowbrook Playfield",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "10548 5th Ave NE, Seattle, WA 98125",
@@ -1747,12 +1747,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Northgate Branch",
+    "name": "Northgate Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "12501 28th Ave NE, Seattle, WA 98125",
@@ -1760,12 +1760,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Lake City Branch",
+    "name": "Lake City Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "12718 1st Ave. NE, Seattle, WA 98125",
@@ -1773,12 +1773,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Northacres Park",
+    "name": "Northacres Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "12755 Greenwood Ave N, Seattle, WA 98133",
@@ -1786,12 +1786,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Public Library",
+    "Agency name (group)": "Seattle Public Library",
     "Accessible by": "General Public",
-    "Location Name": "Broadview Branch",
+    "name": "Broadview Branch",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.4
+    "latitude": 47.7,
+    "longitude": -122.4
   },
   {
     "Address": "13035 Linden Ave. N, Seattle, WA 98133",
@@ -1799,12 +1799,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Bitter Lake Playfield",
+    "name": "Bitter Lake Playfield",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "13401 Meridian Ave N, Seattle, WA 98133",
@@ -1812,12 +1812,12 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "Yes",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Madison Pool",
+    "name": "Madison Pool",
     "Population": "families",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   },
   {
     "Address": "14043 32nd Ave. NE, Seattle, WA 98125",
@@ -1825,11 +1825,11 @@
     "Portable Toilet": "No",
     "Restrooms": "Yes",
     "Showers": "No",
-    "Agency Name (group)": "Seattle Parks and Recreation",
+    "Agency name (group)": "Seattle Parks and Recreation",
     "Accessible by": "General Public",
-    "Location Name": "Little Brook Park",
+    "name": "Little Brook Park",
     "Population": "All",
-    "Latitude": 47.7,
-    "Longitude": -122.3
+    "latitude": 47.7,
+    "longitude": -122.3
   }
 ]
