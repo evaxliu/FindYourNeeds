@@ -5,4 +5,3 @@ Sources:
 “Homelessness and Health.” MedlinePlus, U.S. National Library of Medicine, medlineplus.gov/homelessnessandhealth.html. Accessed 22 May 2024. <br/>
 
 Rhoades, Harmony, et al. “No digital divide? technology use among homeless adults.” Journal of Social Distress and the Homeless, vol. 26, no. 1, 2 Jan. 2017, pp. 73–77, https://doi.org/10.1080/10530789.2017.1305140. <br/>
-
