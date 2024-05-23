@@ -11,7 +11,7 @@ Future<LocationsDB> loadVenuesDB(String dataPath) async {
 
 void main() {
   // Change this to the cvs file to obtain info
-  const dataPath = 'assets/City_Hygiene_Resources.csv';
+  const dataPath = 'assets/locations.json';
   WidgetsFlutterBinding.ensureInitialized();
   loadVenuesDB(dataPath).then((value) => runApp(
     ChangeNotifierProvider(
