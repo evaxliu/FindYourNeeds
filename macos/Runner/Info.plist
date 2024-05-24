@@ -30,5 +30,9 @@
 	<string>NSApplication</string>
   <key>NSLocationUsageDescription</key>
   <string>To find good places near you</string>
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string/>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string/>
 </dict>
 </plist>

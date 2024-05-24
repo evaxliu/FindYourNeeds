@@ -19,7 +19,7 @@ class LocationWidget extends StatelessWidget {
         ListTile(
           leading: Semantics(
             label: location.name,
-            // child: Icon(),
+            child: const Icon(Icons.bathroom)
           ),
           title: Text(location.name),
           subtitle: Text('Distance: ${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble().toString()} meters'),

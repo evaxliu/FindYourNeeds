@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:final_project_app/models/location.dart';
 import 'package:final_project_app/models/locations_db.dart';
 import 'package:final_project_app/providers/position_provider.dart';
@@ -49,7 +48,21 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
                   return Center(
                     child: Card(
                       child: Column(
-                        children: locationWidgets,
+                        children: [
+                          const Padding(
+                            padding: EdgeInsets.all(16.0),
+                            child: Text(
+                              'Find Your Needs',
+                              style: TextStyle(
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                          Column(
+                            children: locationWidgets,
+                          ),
+                        ],
                       ),
                     ),
                   );
