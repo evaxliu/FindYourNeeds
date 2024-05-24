@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LegendWidget extends StatelessWidget {
-  const LegendWidget({Key? key}) : super(key: key);
+  const LegendWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
