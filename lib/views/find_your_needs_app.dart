@@ -1,6 +1,7 @@
 import 'package:final_project_app/models/location.dart';
 import 'package:final_project_app/models/locations_db.dart';
 import 'package:final_project_app/providers/position_provider.dart';
+import 'package:final_project_app/views/header_widget.dart';
 import 'package:final_project_app/views/loading_widget.dart';
 import 'package:final_project_app/views/location_widget.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,6 @@ class FindYourNeedsApp extends StatefulWidget {
 
   @override
   State<FindYourNeedsApp> createState() => _FindYourNeedsAppState();
-
 }
 
 class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
@@ -44,28 +44,7 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
                       positionProvider: positionProvider,
                     );
                   }).toList();
-                  // Create Center -> Card -> Column widget to hold ListTile widgets
-                  return Center(
-                    child: Card(
-                      child: Column(
-                        children: [
-                          const Padding(
-                            padding: EdgeInsets.all(16.0),
-                            child: Text(
-                              'Find Your Needs',
-                              style: TextStyle(
-                                fontSize: 24,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ),
-                          Column(
-                            children: locationWidgets,
-                          ),
-                        ],
-                      ),
-                    ),
-                  );
+                  return HeaderWidget(locationWidgets: locationWidgets);
                 } else {
                   // Display text if position isn't known
                   return const LoadingWidget();

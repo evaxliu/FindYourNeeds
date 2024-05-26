@@ -9,21 +9,32 @@ class LocationWidget extends StatelessWidget {
   const LocationWidget({
     super.key,
     required this.location,
-    required this.positionProvider
+    required this.positionProvider,
   });
+
 
   @override
   Widget build(BuildContext context) {
+    Semantics widgetIcon = Semantics(label: 'Unknown', child: const Icon(Icons.question_mark));
+    switch(location.type) {
+      case 'Restroom':
+        widgetIcon = Semantics(label: 'Restroom available at location', child: const Icon(Icons.family_restroom));
+      case 'General Hygiene':
+        widgetIcon = Semantics(label: 'General hygiene stations available at location. Example: Shower, Restrooms and Laundry', child: const Icon(Icons.bathtub));
+      case 'Library':
+        widgetIcon = Semantics(label: 'Library', child: const Icon(Icons.local_library));
+    }
     return Column(
       children: <Widget>[
         ListTile(
           leading: Semantics(
             label: location.name,
-            child: const Icon(Icons.bathroom)
+            child: widgetIcon
           ),
           title: Text(location.name),
-          subtitle: Text('Distance: ${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble().toString()} meters'),
-          ),
+          subtitle: Text(location.type),
+          trailing: Text('${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble().toString()} meters'),
+        ),
       ],
     );
   }

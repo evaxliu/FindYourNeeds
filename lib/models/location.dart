@@ -8,14 +8,17 @@ part 'location.g.dart';
 
 @JsonSerializable()
 class Location{
-  Location({required this.name,
+  Location({
+            required this.name,
             required this.latitude, 
-            required this.longitude
+            required this.longitude,
+            required this.type
           });
   
   final String name;
   final double latitude;
   final double longitude;
+  final String type;
 
   factory Location.fromJson(Map<String, dynamic> json) => _$LocationFromJson(json);
   Map<String, dynamic> toJson() => _$LocationToJson(this);

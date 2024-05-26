@@ -10,7 +10,8 @@
     "name": "Hutchinson Playground",
     "Population": "All",
     "latitude": 47.513997,
-    "longitude": -122.259439
+    "longitude": -122.259439,
+    "type": "Restroom"
   },
   {
     "Address": "77 S. Washington St, Seattle, WA 98104",
@@ -23,7 +24,8 @@
     "name": "Hygiene Center",
     "Population": "Adults",
     "latitude": 47.600169,
-    "longitude": -122.333511
+    "longitude": -122.333511,
+    "type": "General Hygiene"
   },
   {
     "Address": "201 Lakeside Ave. S, Seattle, WA 98122",
@@ -36,7 +38,8 @@
     "name": "Leschi Park",
     "Population": "All",
     "latitude": 47.599225,
-    "longitude": -122.284971
+    "longitude": -122.284971,
+    "type": "Restroom"
   },
   {
     "Address": "330 19th Ave E, Seattle, WA 98112",
@@ -49,7 +52,8 @@
     "name": "Miller Community Center",
     "Population": "All",
     "latitude": 47.622477,
-    "longitude": -122.307255
+    "longitude": -122.307255,
+    "type": "General Hygiene"
   },
   {
     "Address": "333 Pontius Ave. N, Seattle, WA 98109",
@@ -62,7 +66,8 @@
     "name": "Cascade Playground",
     "Population": "All",
     "latitude": 47.621720,
-    "longitude": -122.331901
+    "longitude": -122.331901,
+    "type": "Restroom"
   },
   {
     "Address": "352 Martin Luther King Jr. Way, Seattle, WA 98112",
@@ -75,7 +80,8 @@
     "name": "Powell Barnett Park",
     "Population": "All",
     "latitude": 47.607229,
-    "longitude": -122.300731
+    "longitude": -122.300731,
+    "type": "Restroom"
   },
   {
     "Address": "400 W Garfield St, Seattle, WA 98119",
@@ -88,7 +94,8 @@
     "name": "Queen Anne Branch",
     "Population": "All",
     "latitude": 47.633266,
-    "longitude": -122.361015
+    "longitude": -122.361015,
+    "type": "Library"
   },
   {
     "Address": "416 2nd Ave Extension S, Seattle, WA 98104",
@@ -101,7 +108,8 @@
     "name": "Lazarus Day Center",
     "Population": "Adults",
     "latitude": 47.599681,
-    "longitude": -122.331107
+    "longitude": -122.331107,
+    "type": "General Hygiene"
   },
   {
     "Address": "425 Harvard Ave E, Seattle, WA 98102",
@@ -114,20 +122,8 @@
     "name": "Capitol Hill Branch",
     "Population": "All",
     "latitude": 47.62284,
-    "longitude": -122.32225
-  },
-  {
-    "Address": "500 23rd Ave, Seattle, WA 98122",
-    "Laundry": "No",
-    "Portable Toilet": "No",
-    "Restrooms": "Yes",
-    "Showers": "Yes",
-    "Agency name (group)": "Seattle Parks and Recreation",
-    "Accessible by": "General Public",
-    "name": "Medgar Evers Pool",
-    "Population": "Families",
-    "latitude": 47.60721,
-    "longitude": -122.30246
+    "longitude": -122.32225,
+    "type": "Library"
   },
   {
     "Address": "517 3rd Ave, Seattle, WA 98104",
@@ -140,7 +136,8 @@
     "name": "Morrison Day Center",
     "Population": "Adults",
     "latitude": 47.60236,
-    "longitude": -122.33175
+    "longitude": -122.33175,
+    "type": "Restroom"
   },
   {
     "Address": "537 25th Ave, Seattle, WA 98122",
@@ -153,7 +150,8 @@
     "name": "Garfield Playfield",
     "Population": "All",
     "latitude": 47.60757,
-    "longitude": -122.30029
+    "longitude": -122.30029,
+    "type": "Restroom"
   },
   {
     "Address": "611 12th Ave S, Seattle, WA 98144",
@@ -166,7 +164,8 @@
     "name": "Chief Seattle Club Day Center",
     "Population": "All",
     "latitude": 47.59757,
-    "longitude": -122.31771
+    "longitude": -122.31771,
+    "type": "General Hygiene"
   },
   {
     "Address": "713 8th Ave S, Seattle, WA 98104",
@@ -179,7 +178,8 @@
     "name": "International District/Chinatown Branch",
     "Population": "All",
     "latitude": 47.59524,
-    "longitude": -122.32288
+    "longitude": -122.32288,
+    "type": "Library"
   },
   {
     "Address": "731 N 35th St, Seattle, WA 98103",
@@ -192,7 +192,8 @@
     "name": "Fremont Branch",
     "Population": "All",
     "latitude": 47.64985,
-    "longitude": -122.34901
+    "longitude": -122.34901,
+    "type": "Library"
   },
   {
     "Address": "750 S Homer St, Seattle, WA 98108",
@@ -205,7 +206,8 @@
     "name": "Georgetown Playfield",
     "Population": "All",
     "latitude": 47.55228,
-    "longitude": -122.32115
+    "longitude": -122.32115,
+    "type": "Restroom"
   },
   {
     "Address": "853 Lake Washington Blvd, Seattle, WA 98122",
@@ -218,7 +220,8 @@
     "name": "Madrona Park",
     "Population": "All",
     "latitude": 47.60945,
-    "longitude": -122.28232
+    "longitude": -122.28232,
+    "type": "Restroom"
   },
   {
     "Address": "899 W Olympic Pl, Seattle, WA 98119",
@@ -231,7 +234,8 @@
     "name": "Kinnear Park",
     "Population": "All",
     "latitude": 47.62956,
-    "longitude": -122.36928
+    "longitude": -122.36928,
+    "type": "Restroom"
   },
   {
     "Address": "901 Rainier Ave S, Seattle, WA 98144",
@@ -244,7 +248,8 @@
     "name": "Peter's Place Day Center",
     "Population": "Adults",
     "latitude": 47.59433,
-    "longitude": -122.30918
+    "longitude": -122.30918,
+    "type":"General Hygiene"
   },
   {
     "Address": "923 NW 54th St, Seattle, WA 98107",
@@ -257,7 +262,8 @@
     "name": "Gilman Playground",
     "Population": "All",
     "latitude": 47.66772,
-    "longitude": -122.37048
+    "longitude": -122.37048,
+    "type": "Restroom"
   },
   {
     "Address": "950 NW Carkeek Park Rd, Seattle, WA 98177",
@@ -270,7 +276,8 @@
     "name": "Carkeek Park",
     "Population": "All",
     "latitude": 47.71255,
-    "longitude": -122.36653
+    "longitude": -122.36653,
+    "type": "Restroom"
   },
   {
     "Address": "1000 4th Ave, Seattle, WA 98104",
@@ -283,7 +290,8 @@
     "name": "Central Library",
     "Population": "All",
     "latitude": 47.60671,
-    "longitude": -122.33259
+    "longitude": -122.33259,
+    "type": "Restroom"
   },
   {
     "Address": "1000 N 50th St, Seattle, WA 98103",
@@ -296,7 +304,8 @@
     "name": "Woodland Park",
     "Population": "All",
     "latitude": 47.66535,
-    "longitude": -122.34623
+    "longitude": -122.34623,
+    "type": "Restroom"
   },
   {
     "Address": "1007 12th Ave S, Seattle, WA 98144",
@@ -309,7 +318,8 @@
     "name": "Dr. Jose Rizal Park",
     "Population": "All",
     "latitude": 47.59412,
-    "longitude": -122.31755
+    "longitude": -122.31755,
+    "type": "Restroom"
   },
   {
     "Address": "1017 Lake Washington Blvd E, Seattle, WA 98112",
@@ -322,7 +332,8 @@
     "name": "Washington Park Playfield",
     "Population": "All",
     "latitude": 47.62875,
-    "longitude": -122.29752
+    "longitude": -122.29752,
+    "type": "Restroom"
   },  
   {
     "Address": "1020 NE 82nd St., Seattle, WA 98115",
@@ -335,7 +346,8 @@
     "name": "Maple Leaf Reservoir Park",
     "Population": "All",
     "latitude": 47.690746,
-    "longitude": -122.321624
+    "longitude": -122.321624,
+    "type": "Restroom"
   },
   {
     "Address": "1100 SW Cloverdale St., Seattle, WA 98106",
@@ -348,7 +360,8 @@
     "name": "Highland Park Playground",
     "Population": "All",
     "latitude": 47.518436,
-    "longitude": -122.354695
+    "longitude": -122.354695,
+    "type": "Restroom"
   },
   {
     "Address": "1134 33rd Ave, Seattle, WA 98122",
@@ -361,7 +374,8 @@
     "name": "Madrona-Sally Goldmark Branch",
     "Population": "All",
     "latitude": 47.608495,
-    "longitude": -122.283817
+    "longitude": -122.283817,
+    "type": "Restroom"
   },
   {
     "Address": "1155 N 130th St, Seattle, WA 98133",
@@ -374,7 +388,8 @@
     "name": "Family Center",
     "Population": "Families",
     "latitude": 47.716627,
-    "longitude": -122.341736
+    "longitude": -122.341736,
+    "type": "General Hygiene"
   },
   {
     "Address": "1215 Thomas Street, Seattle, WA 98109",
@@ -387,7 +402,8 @@
     "name": "Hygiene & Day Center",
     "Population": "Adults",
     "latitude": 47.622303,
-    "longitude": -122.338333
+    "longitude": -122.338333,
+    "type": "General Hygiene"
   },
   {
     "Address": "1222 Harbor Ave. SW, Seattle, WA 98116",
@@ -400,7 +416,8 @@
     "name": "Don Armeni Boat Ramp",
     "Population": "All",
     "latitude": 47.591286,
-    "longitude": -122.387728
+    "longitude": -122.387728,
+    "type": "Restroom"
   },
   {
     "Address": "1247 15th Ave. E, Seattle, WA 98112",
@@ -413,7 +430,8 @@
     "name": "Volunteer Park",
     "Population": "All",
     "latitude": 47.629661,
-    "longitude": -122.314632
+    "longitude": -122.314632,
+    "type": "Restroom"
   },
   {
     "Address": "1253 S Jackson St, Seattle, WA 98144",
@@ -426,7 +444,8 @@
     "name": "Jackson Street",
     "Population": "Youth & Young Adults",
     "latitude": 47.599991,
-    "longitude": -122.317681
+    "longitude": -122.317681,
+    "type": "General Hygiene"
   },
   {
     "Address": "1265 S Main St, Ste 105, Seattle, WA 98144",
@@ -439,7 +458,8 @@
     "name": "Day/Hygiene Center",
     "Population": "All",
     "latitude": 47.599856,
-    "longitude": -122.318079
+    "longitude": -122.318079,
+    "type": "General Hygiene"
   },
   {
     "Address": "1400 Martin Luther King Jr. Way S., Seattle, WA 98144",
@@ -452,7 +472,8 @@
     "name": "Sam Smith Park",
     "Population": "All",
     "latitude": 47.598833,
-    "longitude": -122.314947
+    "longitude": -122.314947,
+    "type": "Restroom"
   },
   {
     "Address": "1415 NE 43rd St, Seattle, WA 98105",
@@ -465,7 +486,8 @@
     "name": "Urban Rest Stop - University District",
     "Population": "All",
     "latitude": 47.659587,
-    "longitude": -122.299722
+    "longitude": -122.299722,
+    "type": "General Hygiene"
   },
   {
     "Address": "1461 Magnolia Blvd. W, Seattle, WA 98199",
@@ -478,19 +500,7 @@
     "name": "Magnolia Park",
     "Population": "All",
     "latitude": 47.633889,
-    "longitude": -122.403333
-  },
-  {
-    "Address": "1471 NW 67th St, Seattle, WA 98117",
-    "Laundry": "No",
-    "Portable Toilet": "No",
-    "Restrooms": "Yes",
-    "Showers": "Yes",
-    "Agency name (group)": "Seattle Parks and Recreation",
-    "Accessible by": "General Public",
-    "name": "Ballard Pool",
-    "Population": "families",
-    "latitude": 47.680446,
-    "longitude": -122.376896
+    "longitude": -122.403333,
+    "type": "Restroom"
   }
 ]
