@@ -11,6 +11,13 @@ Location _$LocationFromJson(Map<String, dynamic> json) => Location(
       latitude: (json['latitude'] as num).toDouble(),
       longitude: (json['longitude'] as num).toDouble(),
       type: json['type'] as String,
+      address: json['address'] as String,
+      laundry: json['laundry'] as String,
+      portableToilet: json['portableToilet'] as String,
+      restrooms: json['restrooms'] as String,
+      showers: json['showers'] as String,
+      accessibleBy: json['accessibleBy'] as String,
+      population: json['population'] as String,
     );
 
 Map<String, dynamic> _$LocationToJson(Location instance) => <String, dynamic>{
@@ -18,4 +25,11 @@ Map<String, dynamic> _$LocationToJson(Location instance) => <String, dynamic>{
       'latitude': instance.latitude,
       'longitude': instance.longitude,
       'type': instance.type,
+      'address': instance.address,
+      'laundry': instance.laundry,
+      'portableToilet': instance.portableToilet,
+      'restrooms': instance.restrooms,
+      'showers': instance.showers,
+      'accessibleBy': instance.accessibleBy,
+      'population': instance.population,
     };

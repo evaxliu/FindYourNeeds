@@ -14,34 +14,48 @@ class LocationView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Semantics widgetIcon = Semantics(label: 'Unknown', child: const Icon(Icons.question_mark));
-    switch (location.type) {
-      case 'Restroom':
-        widgetIcon = Semantics(label: 'Restroom available at location', child: const Icon(Icons.family_restroom));
-        break;
-      case 'General Hygiene':
-        widgetIcon = Semantics(label: 'General hygiene stations available at location. Example: Shower, Restrooms and Laundry', child: const Icon(Icons.bathtub));
-        break;
-      case 'Library':
-        widgetIcon = Semantics(label: 'Library', child: const Icon(Icons.local_library));
-        break;
-      case 'Food Bank':
-        widgetIcon = Semantics(label: 'Food Bank', child: const Icon(Icons.food_bank));
-        break;
-    }
-
     return Scaffold(
       appBar: AppBar(
-        title: Text(location.name),
+        title: const Text('More Info'),
       ),
-      body: ListTile(
-        leading: Semantics(
-          label: location.name,
-          child: widgetIcon,
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _locationInformation('Location Name', location.name),
+            _locationInformation('Type', location.type),
+            _locationInformation('Address', location.address),
+            _locationInformation('Distance', '${location.distanceInMeters(
+      latitude: positionProvider.latitude,
+      longitude: positionProvider.longitude,
+    ).roundToDouble().toString()} meters away'),
+            _locationInformation('Available to', location.population),
+            _locationInformation('Laundry Available', location.laundry),
+            _locationInformation('Portable Toilet Available', location.portableToilet),
+            _locationInformation('Restroom Available', location.restrooms),
+            _locationInformation('Showers Available', location.showers),
+          ],
         ),
-        title: Text(location.name),
-        subtitle: Text(location.type),
-        trailing: Text('${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble()} meters'),
+      ),
+    );
+  }
+
+  Widget _locationInformation(String title, String info) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8.0),
+      child: Semantics(
+        label: '$title: $info',
+        value: info,
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('$title: ', style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            Expanded(
+              child: Text(info, style: const TextStyle(fontSize: 18)),
+            ),
+          ],
+        ),
       ),
     );
   }

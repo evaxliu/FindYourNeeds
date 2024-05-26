@@ -12,13 +12,27 @@ class Location{
             required this.name,
             required this.latitude, 
             required this.longitude,
-            required this.type
+            required this.type,
+            required this.address,
+            required this.laundry,
+            required this.portableToilet,
+            required this.restrooms,
+            required this.showers,
+            required this.accessibleBy,
+            required this.population,
           });
   
   final String name;
   final double latitude;
   final double longitude;
   final String type;
+  final String address;
+  final String laundry;
+  final String portableToilet;
+  final String restrooms;
+  final String showers;
+  final String accessibleBy;
+  final String population;
 
   factory Location.fromJson(Map<String, dynamic> json) => _$LocationFromJson(json);
   Map<String, dynamic> toJson() => _$LocationToJson(this);
