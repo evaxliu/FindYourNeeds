@@ -502,5 +502,61 @@
     "latitude": 47.633889,
     "longitude": -122.403333,
     "type": "Restroom"
+  },
+  {
+    "Address": "Sacred Heart Parish, 232 Warren Ave N Suite B, Seattle",
+    "Laundry": "No",
+    "Portable Toilet": "No",
+    "Restrooms": "No",
+    "Showers": "No",
+    "Agency name (group)": "",
+    "Accessible by": "General Public",
+    "name": "Queen Anne Food Bank",
+    "Population": "All",
+    "latitude": 47.620427,
+    "longitude": -122.352921,
+    "type": "Food Bank"
+  },
+  {
+    "Address": "9501 Greenwood Ave N, Seattle, WA 98103",
+    "Laundry": "No",
+    "Portable Toilet": "No",
+    "Restrooms": "No",
+    "Showers": "No",
+    "Agency name (group)": "",
+    "Accessible by": "General Public",
+    "name": "Greenwood Food Bank",
+    "Population": "All",
+    "latitude": 47.698425,
+    "longitude": -122.355557,
+    "type": "Food Bank"
+  },
+  {
+    "Address": "12736 33rd Ave NE, Seattle, WA 98125",
+    "Laundry": "No",
+    "Portable Toilet": "No",
+    "Restrooms": "No",
+    "Showers": "No",
+    "Agency name (group)": "",
+    "Accessible by": "General Public",
+    "name": "North Helpline - Lake City",
+    "Population": "All",
+    "latitude": 47.722312,
+    "longitude": -122.291993,
+    "type": "Food Bank"
+  },
+  {
+    "Address": "1016 E Pike St UNIT 300, Seattle, WA 98122",
+    "Laundry": "No",
+    "Portable Toilet": "No",
+    "Restrooms": "No",
+    "Showers": "No",
+    "Agency name (group)": "",
+    "Accessible by": "General Public",
+    "name": "Lifelong-Chicken Soup Brigade - Food Distribution Center",
+    "Population": "All",
+    "latitude": 47.614153,
+    "longitude": -122.318741,
+    "type": "Food Bank"
   }
 ]

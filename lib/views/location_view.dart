@@ -25,6 +25,9 @@ class LocationView extends StatelessWidget {
       case 'Library':
         widgetIcon = Semantics(label: 'Library', child: const Icon(Icons.local_library));
         break;
+      case 'Food Bank':
+        widgetIcon = Semantics(label: 'Food Bank', child: const Icon(Icons.food_bank));
+        break;
     }
 
     return Scaffold(
