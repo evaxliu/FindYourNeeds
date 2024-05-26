@@ -22,6 +22,7 @@ class HeaderWidget extends StatelessWidget {
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
                 ),
+                semanticsLabel: 'Find Your Needs',
               ),
             ),
             Expanded(

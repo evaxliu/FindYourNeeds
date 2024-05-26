@@ -33,12 +33,18 @@ class LocationWidget extends StatelessWidget {
       children: <Widget>[
         ListTile(
           leading: Semantics(
-            label: location.name,
+            label: location.type,
             child: widgetIcon
           ),
-          title: Text(location.name),
-          subtitle: Text(location.type),
-          trailing: Text('${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble().toString()} meters'),
+          title: Semantics(
+            label: location.name,
+            child: Text(location.name)),
+          subtitle: Semantics(
+            label: location.type,
+            child: Text(location.type)),
+          trailing: Semantics(
+            label: '${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble().toString()} meters',
+            child: Text('${location.distanceInMeters(latitude: positionProvider.latitude, longitude: positionProvider.longitude).roundToDouble().toString()} meters'))
         ),
       ],
     );
