@@ -3,6 +3,7 @@ import 'package:final_project_app/models/locations_db.dart';
 import 'package:final_project_app/providers/position_provider.dart';
 import 'package:final_project_app/views/header_widget.dart';
 import 'package:final_project_app/views/loading_widget.dart';
+import 'package:final_project_app/views/location_view.dart';
 import 'package:final_project_app/views/location_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -31,29 +32,45 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
     return MaterialApp(
       home: SafeArea(
         child: Scaffold(
-          body: SingleChildScrollView(
-            child: Consumer<PositionProvider>( 
-              builder: (context, positionProvider, child) {
-                if(positionProvider.positionKnown) {
-                  // Sort venues by nearest to furthest
-                  List<Location> nearestLocations = widget.locations.nearestTo(latitude: positionProvider.latitude, longitude: positionProvider.longitude);
-                  // Create individual Column -> ListTile widgets to display restaurant info
-                  List<Widget> locationWidgets = nearestLocations.map((location) {
-                    return LocationWidget(
+          body: Consumer<PositionProvider>( 
+            builder: (context, positionProvider, child) {
+              if(positionProvider.positionKnown) {
+                // Sort locations by nearest to furthest
+                List<Location> nearestLocations = widget.locations.nearestTo(latitude: positionProvider.latitude, longitude: positionProvider.longitude);
+                List<Widget> locationWidgets = nearestLocations.map((location) {
+                  return GestureDetector(
+                    onTap: () {
+                      _navigateToLocationView(context, location, positionProvider);
+                    },
+                    child: LocationWidget(
                       location: location,
                       positionProvider: positionProvider,
-                    );
-                  }).toList();
-                  return HeaderWidget(locationWidgets: locationWidgets);
-                } else {
-                  // Display text if position isn't known
-                  return const LoadingWidget();
-                }
+                    )
+                  );
+                }).toList();
+                return HeaderWidget(locationWidgets: locationWidgets);
+              } else {
+                // Display text if position isn't known
+                return const LoadingWidget();
               }
-            ),
-          )
+            }
+          ),
         )
       )
     );
   }
+}
+
+// A method to navigate the user's UI to the given entry
+// Params:
+//  - context: BuildContext
+//  - entry: JournalEntry
+Future<void> _navigateToLocationView(BuildContext context, Location location, PositionProvider positionProvider) async {
+  await Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => LocationView(location: location, positionProvider: positionProvider))
+  );
+
+
+  if (!context.mounted) return; // The widget may not be instantiated nor mounted yet or has been unmounted, may happen when app launches for the first time or was closed and then reopened, this prevents certain errors due to these cases.
 }

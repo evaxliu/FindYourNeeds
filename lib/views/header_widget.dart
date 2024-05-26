@@ -24,8 +24,12 @@ class HeaderWidget extends StatelessWidget {
                 ),
               ),
             ),
-            Column(
-              children: locationWidgets,
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  children: locationWidgets,
+                ),
+              ),
             ),
           ],
         ),
