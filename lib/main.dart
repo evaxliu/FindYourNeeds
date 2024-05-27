@@ -10,13 +10,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Legend Widget Test',
+    return const MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Legend Widget Test'),
-        ),
-        body: const Center(
+        body: Center(
           child: LegendWidget(),
         ),
       ),

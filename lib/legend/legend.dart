@@ -12,22 +12,42 @@ class LegendWidget extends StatelessWidget {
         children: [
           Row(
             children: [
-              Icon(Icons.wc),
+              Icon(Icons.location_pin, color: Colors.red),
               SizedBox(width: 8.0),
-              Text('Toilets'),
+              Text('Current Location'),
             ],
           ),
-          SizedBox(height: 8.0),
           Row(
             children: [
-              Icon(Icons.shower),
+              Icon(Icons.family_restroom, color: Colors.blue),
               SizedBox(width: 8.0),
-              Text('Showers'),
+              Text('Restroom'),
             ],
           ),
-          // Add more legend items as needed
+          Row(
+            children: [
+              Icon(Icons.bathtub, color: Colors.purple),
+              SizedBox(width: 8.0),
+              Text('General Hygiene'),
+            ],
+          ),
+          Row(
+            children: [
+              Icon(Icons.local_library, color: Colors.orange),
+              SizedBox(width: 8.0),
+              Text('Library'),
+            ],
+          ),
+          Row(
+            children: [
+              Icon(Icons.food_bank, color: Colors.green),
+              SizedBox(width: 8.0),
+              Text('Food Bank'),
+            ],
+          ),
         ],
       ),
     );
   }
 }
+
