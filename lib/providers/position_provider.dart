@@ -47,7 +47,7 @@ class PositionProvider extends ChangeNotifier {
       );
 
     // Sets a periodic timer to keep finding our location and updating it
-    _locationCheckerTimer = Timer.periodic(const Duration(seconds: 60), (timer) {
+    _locationCheckerTimer = Timer.periodic(const Duration(seconds: 5), (timer) {
       _determinePosition()
         .then(
           (position) {

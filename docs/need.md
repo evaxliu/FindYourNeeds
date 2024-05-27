@@ -1,6 +1,5 @@
 In an article by MedlinePlus-associated with the National Library of Medicine-some problems people experiencing homelessness face include: "problems getting enough food, unsanitary living conditions, and exposure to severe weather" (MedlinePlus). These problems are a result of not having easy access to resources and information to access basic necessities which would increase quality of life. An possible albeit elementary solution would be to create an app which gives an easy access to information to basic necessities around the city of Seattle. Data from an article by the Journal of Social Distress and the Homeless states "the vast majority (94%) [of homeless adults] currently owned a cell phone... more than half currently owned a smartphone". By creating an app that stores necessary information locally on the device, people using the app could access the information they need with little to no internet/cellular service access required.
 
-
 Sources:
 “Homelessness and Health.” MedlinePlus, U.S. National Library of Medicine, medlineplus.gov/homelessnessandhealth.html. Accessed 22 May 2024. <br/>
 

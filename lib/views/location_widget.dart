@@ -29,6 +29,7 @@ class LocationWidget extends StatelessWidget {
         widgetIcon = Semantics(label: 'Food Bank', child: const Icon(Icons.food_bank));
         break;
     }
+    
     return Column(
       children: <Widget>[
         ListTile(
