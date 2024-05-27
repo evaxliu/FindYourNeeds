@@ -1,4 +1,4 @@
-import 'package:final_project_app/map/location_service.dart';
+import 'location_service.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +11,7 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   late GoogleMapController mapController;
-  final LatLng _center = const LatLng(47.6062, -122.3321); // (seattle is center for now: will change to users location)
+  final LatLng _center = const LatLng(47.6062,-122.3321); // (seattle is center for now: will change to users location)
   List<Marker> _markers = [];
 
   void _onMapCreated(GoogleMapController controller) {

@@ -27,15 +27,15 @@ class Location {
 
   factory Location.fromJson(Map<String, dynamic> json) {
     return Location(
-      address: json['Address'],
-      laundry: json['Laundry'] == 'Yes',
-      portableToilet: json['Portable Toilet'] == 'Yes',
-      restrooms: json['Restrooms'] == 'Yes',
-      showers: json['Showers'] == 'Yes',
-      agencyName: json['Agency name (group)'],
-      accessibleBy: json['Accessible by'],
+      address: json['address'],
+      laundry: json['laundry'] == 'Yes',
+      portableToilet: json['portableToilet'] == 'Yes',
+      restrooms: json['restrooms'] == 'Yes',
+      showers: json['showers'] == 'Yes',
+      agencyName: json['group'],
+      accessibleBy: json['accessibleBy'],
       name: json['name'],
-      population: json['Population'],
+      population: json['population'],
       latitude: json['latitude'],
       longitude: json['longitude'],
     );
