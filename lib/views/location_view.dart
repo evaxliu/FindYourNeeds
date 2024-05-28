@@ -17,7 +17,16 @@ class LocationView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Semantics(label: 'More Info', child: const Text('More Info')),
+        title: Semantics(label: 'MORE INFO',
+        child: const Text(
+              'MORE INFO',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.center,
+            ),
+        )
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

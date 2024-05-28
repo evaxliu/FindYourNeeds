@@ -8,7 +8,7 @@ class LegendWidget extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16.0),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.0),
+        color: Colors.white.withOpacity(0.7),
         borderRadius: BorderRadius.circular(8.0),
       ),
       child: const Column(
@@ -17,35 +17,35 @@ class LegendWidget extends StatelessWidget {
           Row(
             children: [
               Icon(Icons.location_pin, color: Colors.red),
-              SizedBox(width: 8.0),
+              SizedBox(width: 4.0),
               Text('Current Location'),
             ],
           ),
           Row(
             children: [
               Icon(Icons.family_restroom, color: Colors.blue),
-              SizedBox(width: 8.0),
+              SizedBox(width: 4.0),
               Text('Restroom'),
             ],
           ),
           Row(
             children: [
               Icon(Icons.bathtub, color: Colors.purple),
-              SizedBox(width: 8.0),
+              SizedBox(width: 4.0),
               Text('General Hygiene'),
             ],
           ),
           Row(
             children: [
               Icon(Icons.local_library, color: Colors.orange),
-              SizedBox(width: 8.0),
+              SizedBox(width: 4.0),
               Text('Library'),
             ],
           ),
           Row(
             children: [
               Icon(Icons.food_bank, color: Colors.green),
-              SizedBox(width: 8.0),
+              SizedBox(width: 4.0),
               Text('Food Bank'),
             ],
           ),

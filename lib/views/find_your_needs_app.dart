@@ -44,7 +44,7 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
       body: Column(
         children: [
           const Expanded(
-            flex: 1,
+            flex: 2,
             child: MapScreen(), // showing the map on the top half
           ),
           Expanded(
