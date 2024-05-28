@@ -10,6 +10,7 @@ class Location {
   final String population;
   final double latitude;
   final double longitude;
+  final String type;
 
   Location({
     required this.address,
@@ -23,9 +24,23 @@ class Location {
     required this.population,
     required this.latitude,
     required this.longitude,
+    required this.type,
   });
 
   factory Location.fromJson(Map<String, dynamic> json) {
+    String locationType;
+    if (json['type'] == 'Restroom') {
+      locationType = 'Restroom';
+    } else if (json['type'] == 'General Hygiene') {
+      locationType = 'General Hygiene';
+    } else if (json['type'] == 'Library') {
+      locationType = 'Library';
+    } else if (json['type'] == 'Food Bank') {
+      locationType = 'Food Bank';
+    } else {
+      locationType = 'Other';
+    }
+
     return Location(
       address: json['address'],
       laundry: json['laundry'] == 'Yes',
@@ -38,6 +53,7 @@ class Location {
       population: json['population'],
       latitude: json['latitude'],
       longitude: json['longitude'],
+      type: locationType,
     );
   }
 }
