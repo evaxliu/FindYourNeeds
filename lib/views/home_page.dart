@@ -91,6 +91,7 @@ class HomePage extends StatelessWidget {
                 label: const Text(
                   'START SEARCH',
                   style: TextStyle(fontSize: 18),
+                  semanticsLabel: 'Start Search',
                 ),
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(

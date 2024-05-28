@@ -39,6 +39,7 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
             fontWeight: FontWeight.bold,
           ),
           textAlign: TextAlign.center,
+          semanticsLabel: 'Find your needs',
         ),
       ),
       body: Column(
