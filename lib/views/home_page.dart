@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.center,
+              semanticsLabel: 'Finding Your Needs',
             ),
             const SizedBox(height: 40),
             Row(

@@ -17,15 +17,16 @@ class LocationView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Semantics(label: 'MORE INFO',
-        child: const Text(
-              'MORE INFO',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
-              textAlign: TextAlign.center,
+        title: Semantics(
+          label: 'MORE INFO',
+          child: const Text(
+            'MORE INFO',
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
             ),
+            textAlign: TextAlign.center,
+          ),
         )
       ),
       body: Padding(
@@ -52,8 +53,8 @@ class LocationView extends StatelessWidget {
             ElevatedButton.icon(
               onPressed: () =>
                   _openMapsApp(location.latitude, location.longitude),
-              icon: const Icon(Icons.navigation),
-              label: const Text('Navigate to this place'),
+              icon: Semantics(label: 'Open maps app for navigation' ,child: const Icon(Icons.navigation)),
+              label: const Text('Navigate to this place', semanticsLabel: 'Navigate to this place',),
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(
                   horizontal: 40,
