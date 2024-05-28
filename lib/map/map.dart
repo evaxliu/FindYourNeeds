@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'location.dart';
 import 'location_service.dart';
 import '/providers/position_provider.dart';
+import 'package:final_project_app/views/legend.dart';
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
@@ -178,6 +179,11 @@ class _MapScreenState extends State<MapScreen> {
                 _buildZoomButton(Icons.remove, _zoomOut),
               ],
             ),
+          ),
+          const Positioned(
+            left: 16,
+            bottom: 16,
+            child: LegendWidget(),
           ),
         ],
       ),
