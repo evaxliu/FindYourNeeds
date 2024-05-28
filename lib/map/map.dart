@@ -16,7 +16,8 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   late GoogleMapController mapController;
-  final LatLng _center = const LatLng(47.6062, -122.3321); // using paul allen as center
+  final LatLng _center =
+      const LatLng(47.6062, -122.3321); // using paul allen as center
   List<Marker> _markers = [];
   double _currentZoom = 11.0;
 
