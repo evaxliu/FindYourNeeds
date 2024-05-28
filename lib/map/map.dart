@@ -2,10 +2,10 @@ import 'dart:ui';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'location.dart';
 import 'location_service.dart';
 import '/providers/position_provider.dart';
-import 'package:final_project_app/views/legend.dart';
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
@@ -17,14 +17,21 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   late GoogleMapController mapController;
-  final LatLng _center =
-      const LatLng(47.6062, -122.3321); // using paul allen as center
+  // final LatLng _center = const LatLng(47.6062, -122.3321); // using Paul Allen as center
   List<Marker> _markers = [];
   double _currentZoom = 11.0;
+  LatLng _currentCenter = const LatLng(47.6062, -122.3321);
+
+  @override
+  void initState() {
+    super.initState();
+    _loadMapPosition();
+  }
 
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
     _loadMarkers();
+    _loadMapPosition();
   }
 
   Future<void> _loadMarkers() async {
@@ -122,6 +129,7 @@ class _MapScreenState extends State<MapScreen> {
     setState(() {
       _currentZoom++;
       mapController.animateCamera(CameraUpdate.zoomIn());
+      _saveMapPosition();
     });
   }
 
@@ -129,7 +137,32 @@ class _MapScreenState extends State<MapScreen> {
     setState(() {
       _currentZoom--;
       mapController.animateCamera(CameraUpdate.zoomOut());
+      _saveMapPosition();
     });
+  }
+
+  Future<void> _saveMapPosition() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setDouble('latitude', _currentCenter.latitude);
+    await prefs.setDouble('longitude', _currentCenter.longitude);
+    await prefs.setDouble('zoom', _currentZoom);
+  }
+
+  Future<void> _loadMapPosition() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    double? latitude = prefs.getDouble('latitude');
+    double? longitude = prefs.getDouble('longitude');
+    double? zoom = prefs.getDouble('zoom');
+
+    if (latitude != null && longitude != null && zoom != null) {
+      setState(() {
+        _currentCenter = LatLng(latitude, longitude);
+        _currentZoom = zoom;
+      });
+      mapController.animateCamera(CameraUpdate.newCameraPosition(
+        CameraPosition(target: _currentCenter, zoom: _currentZoom),
+      ));
+    }
   }
 
   @override
@@ -156,9 +189,16 @@ class _MapScreenState extends State<MapScreen> {
                 return GoogleMap(
                   onMapCreated: _onMapCreated,
                   initialCameraPosition: CameraPosition(
-                    target: _center,
+                    target: _currentCenter,
                     zoom: _currentZoom,
                   ),
+                  onCameraMove: (CameraPosition position) {
+                    _currentCenter = position.target;
+                    _currentZoom = position.zoom;
+                  },
+                  onCameraIdle: () {
+                    _saveMapPosition();
+                  },
                   markers: allMarkers,
                   myLocationButtonEnabled: true,
                 );
@@ -179,11 +219,6 @@ class _MapScreenState extends State<MapScreen> {
                 _buildZoomButton(Icons.remove, _zoomOut),
               ],
             ),
-          ),
-          const Positioned(
-            left: 16,
-            bottom: 16,
-            child: LegendWidget(),
           ),
         ],
       ),
