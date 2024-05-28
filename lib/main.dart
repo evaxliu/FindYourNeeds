@@ -1,20 +1,22 @@
+import 'package:final_project_app/models/locations_db.dart';
+import 'package:final_project_app/providers/position_provider.dart';
+import 'package:final_project_app/views/find_your_needs_app.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
+import 'package:flutter/services.dart' show rootBundle;
 
-void main() {
-  runApp(const MainApp());
+Future<LocationsDB> loadLocationsDB(String dataPath) async {
+  return LocationsDB.initializeFromJson(await rootBundle.loadString(dataPath));
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+void main() {
+  const dataPath = 'assets/locations.json';
+  WidgetsFlutterBinding.ensureInitialized();
+  loadLocationsDB(dataPath).then((value) => runApp(
+    ChangeNotifierProvider(
+      create: (context) => PositionProvider(),
+      child: FindYourNeedsApp(locations: value),
+    ),
+  ));
 }
