@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
 
 class HeaderWidget extends StatelessWidget {
+  // Constructor
   const HeaderWidget({
     super.key,
     required this.locationWidgets,
   });
 
+  // List of locations
   final List<Widget> locationWidgets;
 
+  // Widget to display list widgets of locations
+  // Parameters:
+  //  - context: BuildContext
+  // Returns widgets
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -16,14 +22,6 @@ class HeaderWidget extends StatelessWidget {
           children: [
             const Padding(
               padding: EdgeInsets.all(16.0),
-              child: Text(
-                'Find Your Needs',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
-                semanticsLabel: 'Find Your Needs',
-              ),
             ),
             Expanded(
               child: SingleChildScrollView(
