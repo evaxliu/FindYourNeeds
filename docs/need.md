@@ -4,6 +4,8 @@ A thesis by Nava titled "Hygiene is a human right: Access to hygiene facilities 
 
 In an informal interview with Eva's friend, [redacted for privacy purposes], they had experienced homelessness in the past. They recounted a lot of difficulties with finding a home due to restrictions in shelters and being unable to rely on couch surfing for stable housing. Depression and the feeling of hopelessness had made it difficult to find what they need especially since they were forced to focus on survival and the current day first and foremost which left little time to find reliable places to take care of their hygiene. They said they had the most trouble finding a place to shower. Especially since most places discriminated against them for experiencing homelessness and kicked them out.
 
+In an article by the Natiaonl Health Care for the Homeless Council, they talk about the lack of access to safe and clean sanitation facilities not only increases existing health problems but also creates new ones, such as the spread of communicable diseases, worsening of chronic health conditions, and development of behavioral health issues (National Health Care for the Homeless Council, n.d.). On top of that, laws against general hygiene in public are unfair to homeless people who don't have any other options. They can get big fines or even end up on the sex offender list (Paulas, 2023). Tackling this problem is not only the right thing to do, but it also helps public health and makes things more equal for vulnerable people who are often treated badly by society.
+
 Sources:
 Eva's friend, thank you. I'm glad you don't have to struggle anymore. <br/>
 
@@ -14,3 +16,7 @@ Rhoades, Harmony, et al. “No digital divide? technology use among homeless adu
 Nava, Bianca Elise (2023). Hygiene is a human right: Access to hygiene facilities in unsheltered individuals and its effects on health (Bachelor's thesis). University of Arizona, Tucson, USA. http://hdl.handle.net/10150/668676 <br/>
 
 ​​HYGIENE IS A HUMAN RIGHT: ACCESS TO HYGIENE FACILITIES IN UNSHELTERED INDIVIDUALS AND ITS EFFECTS ON HEALTH, https://repository.arizona.edu/handle/10150/668676
+
+Paulas, Rina. "Opinion: Starbucks may soon close its bathrooms to the public. Good hygiene is a human right." Los Angeles Times, 23 May 2023, www.latimes.com/opinion/story/2023-05-23/starbucks-close-public-bathrooms-human-right. Accessed 29 May 2024.
+
+"Homelessness & Health: What's the Connection?" National Health Care for the Homeless Council, nhchc.org/wp-content/uploads/2019/08/homelessness-and-health.pdf. Accessed 29 May 2024.
