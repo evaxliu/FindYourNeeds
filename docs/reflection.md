@@ -15,8 +15,13 @@ By using Geolocation, we pin point a user's current location and determine the d
 
 #### Querying web services (Google Service API)
 
+We used Google Service API, to access google maps and locations on the maps
+
 
 #### Secure data persistence (remember which pin they last tapped on)
+
+If you reload the app or close the app, it will show the last location the user zoomed into or moved to.
+
 
 
 ## Describe what changed from your original concept to your final implementation. Why did you make those changes from your original design vision?
