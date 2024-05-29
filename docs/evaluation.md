@@ -55,25 +55,66 @@ Overall SUS Score: 85, above average SUS score (avg: 68)
 Learnability Score: 100, highest learnability score
 Usability Score: 81.25, high usability score
 
-SUS Tester 3: 
+SUS Tester 3: Hamid Ali
 Commit Id Tested: 
-Task (Problem and Goal): 
+Task (Problem and Goal): Find a food bank, restroom, and library, and go to google maps app through this app
 Questions:
-1. 
+1. 4
+2. 2
+3. 5
+4. 1
+5. 4
+6. 3
+7. 5
+8. 1
+9. 4
+10. 1
 
-SUS Tester 4: 
+Overall SUS Score: 85
+Learnability Score: 100, 
+Usability Score: 81.25, 
+
+
+SUS Tester 4: Yaphet Paulos 
 Commit Id Tested: 
-Task (Problem and Goal): 
+Task (Problem and Goal): Find a food bank, restroom, and library, and go to google maps app through this app
 Questions:
-1. 
+1. 4
+2. 1
+3. 5
+4. 1
+5. 4
+6. 2
+7. 4
+8. 3
+9. 4
+10. 1
 
-SUS Tester 5: 
+Overall SUS Score: 82.5
+Learnability Score: 100
+Usability Score: 78.125
+
+
+SUS Tester 5: Jayden Dunya 
 Commit Id Tested: 
-Task (Problem and Goal): 
+Task (Problem and Goal): Find a food bank, restroom, and library, and go to google maps app through this app
 Questions:
-1. 
+1. 3
+2. 1
+3. 5
+4. 1
+5. 4
+6. 2
+7. 4
+8. 4
+9. 4
+10. 2
 
-SUS Tester 6: 
+Overall SUS Score: 77.5
+Learnability Score: 100
+Usability Score: 71.875
+
+SUS Tester 6:
 Commit Id Tested: 
 Task (Problem and Goal): 
 Questions:
