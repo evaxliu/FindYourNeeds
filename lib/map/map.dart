@@ -224,19 +224,23 @@ class _MapScreenState extends State<MapScreen> {
               }
             },
           ),
-          Positioned(
-            bottom: 80,
-            right: 16,
-            child: Column(
-              children: [
-                // zoom in button
-                _buildZoomButton(Icons.add, _zoomIn),
-                const SizedBox(height: 8),
-                // zoom out button
-                _buildZoomButton(Icons.remove, _zoomOut),
-              ],
-            ),
+        Positioned(
+          bottom: 80,
+          right: 16,
+          child: Column(
+          children: [
+          Semantics(
+            label: 'Zoom In',
+            child: _buildZoomButton(Icons.add, _zoomIn),
           ),
+            const SizedBox(height: 8),
+          Semantics(
+            label: 'Zoom Out',
+            child: _buildZoomButton(Icons.remove, _zoomOut),
+          ),
+        ],
+      ),
+    ),
           Positioned(
             left: 16,
             bottom: 16,
