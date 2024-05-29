@@ -26,6 +26,8 @@ Our original concept of the implementation was a simple map, that shows where re
 The research we did was how we deepened our understanding of this topic.
 Like the thesis by Nava gave us awareness of how inaccessible hygienic products and resources are. We see the high rates of infections and diseases that come from not having the resources to be clean.
 In " Journal of Social Distress and the Homeless", we see how an app like this can be beneficial, since their research saw that 94% of homeless adults owned a cellphone, and half owned a smartphone, if they have access to smartphones an app that shows all locations with resources could help some people.
+In "Opinion: Starbucks may soon close its bathrooms to the public. Good hygiene is a human right", we can see how public bathrooms are seen as a basic human right but not many cities care. This creates a sense of vulnerability for the population who don't have any other options for personal hygiene and other resources.
+In "Homelessness & Health: What's the Connection?", there is an increase in health problems with those who are experiencing homelessness due to the lack of access to safe and clean sanitation facilities.
 
 ## Describe two areas of future work for your app, including how you could increase the accessibility and usability of this app
 One area for future work is reducing the app's reliance on cellular data even more by switching from Google Maps API to creating our own map of location information and storing it as app storage locally on a person's machine. This avoids a possible invisible paywall since cellular data costs a lot of money.
@@ -43,10 +45,13 @@ https://docs.flutter.dev/ui/layout <br/>
 
 ## What do you feel was the most valuable thing you learned in CSE 340 that will help you beyond this class, and why?
 Beemnet:
-I think the most valuable thing I've learned in this class is how to test my own product with the accessibility documentation. Since every class, you write code and make apps or finish projects but it has never been a requirement or a thought to do that. It is fairly simple too with the contrast and semantics (or is it that flutter makes it easy). I’d say it was more of a mindset changer. 
+I think the most valuable thing I've learned in this class is how to test my own product with the accessibility documentation. Since every class, you write code and make apps or finish projects but it has never been a requirement or a thought to do that. It is fairly simple too with the contrast and semantics (or is it that flutter makes it easy). I’d say it was more of a mindset changer.
 
 Eva:
 The most valuable thing I've learned in this class is how to consider and implement accessibility within my software. While I've had experience working with a team to create a website that is more friendly to people from a specific technical background, I never considered people who have vision disabilities. This class opened my mind to becoming more inclusive through the software that I create.
+
+Ha Vi:
+The most valuable thing I learned in this class is working with a team on a project. I have not had the chance to work with a team on a project so I learned a lot about using Gitlab and making a functioning app. This will help me beyond this class because being able to work on code with multiple people poking at it is important in the real world. This will help during code reviewing and pushing actual products out into the public.
 
 
 ## If you could go back and give yourself 2-3 pieces of advice at the beginning of the class, what would you say and why? (Alternatively: what 2-3 pieces of advice would you give to future students who take CSE 340 and why?)
@@ -55,3 +60,6 @@ The advice I would give to future students if they took 142/143 (not sure how 12
 
 Eva:
 I'd say 2-3 pieces of advice I would give to future students is to do their best attempt during their first submission of the homeworks so they can maximize learning from the feedback for their resubmissions. I learned a lot about what I missed and need to remember considering when obtaining feedback for the assignments where I tried my best. I would also recommend future students to take good advantage of office hours and EdStem, this is more so general advice, but the TAs and professor were super helpful in answering any questions I had, even ones they never encountered before. For my third advice, I'd advise future students to not feel too daunted about the class. The class is very friendly with documentation and spec instructions during the homeworks so work hard and have fun!
+
+Ha Vi:
+If I were to go back and give myself 2-3 pieces of advice, I would say to start the assignments earlier to fully take advantage of the resubmission cycle. With the resubmission cycle there, I slacked off and didn't put in any effort for the first submission, shortening myself from the full learning. Another advice would be to take more advantage of office hours. I know the TAs are super helpful but I chose to struggle through the class by myself with the help of some of my peers. However, trying to find time that aligns with my schedule to ask the teaching team would've alleviate some of the stress I gave myself.
