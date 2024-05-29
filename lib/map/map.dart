@@ -37,6 +37,7 @@ class _MapScreenState extends State<MapScreen> {
     _loadMarkers();
     _loadMapPosition();
   }
+
   // load markers from a JSON file
   Future<void> _loadMarkers() async {
     List<Location> locations = await loadLocations();
@@ -62,6 +63,7 @@ class _MapScreenState extends State<MapScreen> {
       _markers = markers.toList();
     });
   }
+
   // Function to get a custom icon based on the location type
   Future<BitmapDescriptor> _getIconForType(String type) async {
     IconData iconData;
@@ -224,27 +226,27 @@ class _MapScreenState extends State<MapScreen> {
               }
             },
           ),
-        Positioned(
-          bottom: 80,
-          right: 16,
-          child: Column(
-          children: [
-          Semantics(
-            label: 'Zoom In',
-            child: _buildZoomButton(Icons.add, _zoomIn),
-          ),
-            const SizedBox(height: 8),
-          Semantics(
-            label: 'Zoom Out',
-            child: _buildZoomButton(Icons.remove, _zoomOut),
-          ),
-        ],
-      ),
-    ),
           Positioned(
+            bottom: 80,
+            right: 16,
+            child: Column(
+              children: [
+                Semantics(
+                  label: 'Zoom In',
+                  child: _buildZoomButton(Icons.add, _zoomIn),
+                ),
+                const SizedBox(height: 8),
+                Semantics(
+                  label: 'Zoom Out',
+                  child: _buildZoomButton(Icons.remove, _zoomOut),
+                ),
+              ],
+            ),
+          ),
+          const Positioned(
             left: 16,
             bottom: 16,
-            child: const LegendWidget(),
+            child: LegendWidget(),
           ),
         ],
       ),
