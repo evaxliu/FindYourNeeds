@@ -1,4 +1,3 @@
-
 // class represents a location with various attributes.
 class Location {
   final String address;
@@ -49,7 +48,7 @@ class Location {
       laundry: json['laundry'] == 'Yes',
       portableToilet: json['portableToilet'] == 'Yes',
       restrooms: json['restrooms'] == 'Yes',
-      showers: json['showers'] == 'Yes',
+      showers: json['showers']  == 'Yes',
       agencyName: json['group'],
       accessibleBy: json['accessibleBy'],
       name: json['name'],

@@ -87,7 +87,7 @@ class HomePage extends StatelessWidget {
                     ),
                   );
                 },
-                icon: const Icon(Icons.search),
+                icon: const Icon(Icons.touch_app),
                 label: const Text(
                   'START SEARCH',
                   style: TextStyle(fontSize: 18),

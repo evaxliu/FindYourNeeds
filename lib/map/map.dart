@@ -12,8 +12,8 @@ class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   // makes the state for the MapScreen
+  // ignore: library_private_types_in_public_api
   _MapScreenState createState() => _MapScreenState();
 }
 
@@ -100,7 +100,7 @@ class _MapScreenState extends State<MapScreen> {
     const double size = 80.0;
     const double iconSize = 60.0;
 
-    final Paint paint = Paint()..color = color; // Use the color parameter here
+    final Paint paint = Paint()..color = color; // used the color param here
     canvas.drawCircle(
       const Offset(size / 2, size / 2),
       size / 2,
@@ -180,6 +180,17 @@ class _MapScreenState extends State<MapScreen> {
     }
   }
 
+  // current location button caller
+  void _goToCurrentLocation(PositionProvider positionProvider) {
+    final currentLocation =
+        LatLng(positionProvider.latitude, positionProvider.longitude);
+    mapController.animateCamera(CameraUpdate.newLatLng(currentLocation));
+    setState(() {
+      _currentCenter = currentLocation;
+      _currentZoom = -15.0; // zoom level with button
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -212,15 +223,13 @@ class _MapScreenState extends State<MapScreen> {
                     _currentZoom = position.zoom;
                   },
                   onCameraIdle: () {
-                    // saves the map position when the camera stops moving
                     _saveMapPosition();
                   },
                   markers: allMarkers,
-                  myLocationButtonEnabled: true,
+                  myLocationButtonEnabled: false,
                 );
               } else {
                 return const Center(
-                  // shows loading indicator when position is unknown
                   child: CircularProgressIndicator(),
                 );
               }
@@ -243,6 +252,28 @@ class _MapScreenState extends State<MapScreen> {
               ],
             ),
           ),
+          Positioned(
+            bottom: 16,
+            right: 16,
+            child: Material(
+              color: Colors.white,
+              shape: const CircleBorder(),
+              elevation: 4.0,
+              child: InkWell(
+                onTap: () {
+                  final positionProvider =
+                      Provider.of<PositionProvider>(context, listen: false);
+                  _goToCurrentLocation(positionProvider);
+                },
+                customBorder: const CircleBorder(),
+                child: const Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: Icon(Icons.my_location, size: 32, color: Colors.black),
+                ),
+              ),
+            ),
+          ),
+
           const Positioned(
             left: 16,
             bottom: 16,
