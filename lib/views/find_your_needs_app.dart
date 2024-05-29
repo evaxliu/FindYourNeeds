@@ -10,15 +10,19 @@ import 'package:provider/provider.dart';
 import '/map/map.dart';
 
 class FindYourNeedsApp extends StatefulWidget {
+  // Initializing locations database
   final LocationsDB locations;
 
+  // Constructor
   const FindYourNeedsApp({super.key, required this.locations});
 
+  // Creating state
   @override
   State<FindYourNeedsApp> createState() => _FindYourNeedsAppState();
 }
 
 class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
+  // Inoitializing variable for longitude and latitude
   late double long;
   late double lat;
 
@@ -28,6 +32,10 @@ class _FindYourNeedsAppState extends State<FindYourNeedsApp> {
     super.initState();
   }
 
+  // Widget to display list/gesture widgets of locations based on distance from current position
+  // Parameters:
+  //  - context: BuildContext
+  // Returns widgets
   @override
   Widget build(BuildContext context) {
     return Scaffold(

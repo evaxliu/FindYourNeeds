@@ -3,17 +3,25 @@ import 'package:final_project_app/models/location.dart';
 import 'package:final_project_app/providers/position_provider.dart';
 
 class LocationWidget extends StatelessWidget {
+  // Location initialization
   final Location location;
+  // Provider initialization
   final PositionProvider positionProvider;
 
+  // Constructor
   const LocationWidget({
     super.key,
     required this.location,
     required this.positionProvider,
   });
 
+  // Build widget, displays simplified information about one specific location
+  // Parameters:
+  //  - context: BuildContext
+  // Returns Widgets
   @override
   Widget build(BuildContext context) {
+    // Location's icon associated with its type
     Semantics widgetIcon = Semantics(label: 'Unknown', child: const Icon(Icons.question_mark));
     switch(location.type) {
       case 'Restroom':
@@ -29,6 +37,7 @@ class LocationWidget extends StatelessWidget {
         widgetIcon = Semantics(label: 'Food Bank', child: const Icon(Icons.food_bank, color: Colors.green));
         break;
     }
+    // Location information
     return Column(
       children: <Widget>[
         ListTile(

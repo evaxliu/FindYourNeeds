@@ -4,17 +4,25 @@ import 'package:final_project_app/providers/position_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LocationView extends StatelessWidget {
+  // Location initialization
   final Location location;
+  // Provider initialization
   final PositionProvider positionProvider;
 
+  // Constructor
   const LocationView({
     super.key,
     required this.location,
     required this.positionProvider,
   });
 
+  // Build widget, displays more information about one specific location
+  // Parameters:
+  //  - context: BuildContext
+  // Returns widgets
   @override
   Widget build(BuildContext context) {
+    // Text Widget
     return Scaffold(
       appBar: AppBar(
         title: Semantics(
@@ -29,6 +37,7 @@ class LocationView extends StatelessWidget {
           ),
         )
       ),
+      // Information widgets
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -72,6 +81,11 @@ class LocationView extends StatelessWidget {
     );
   }
 
+  // Helper widget to grab location information and display it using widgets, reduces redundancy
+  // Parameters:
+  //  - title: String
+  //  - info: String
+  // Returns widgets
   Widget _locationInformation(String title, String info) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
