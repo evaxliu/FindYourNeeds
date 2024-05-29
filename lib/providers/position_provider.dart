@@ -1,8 +1,11 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:logger/logger.dart';
 
 class PositionProvider extends ChangeNotifier {
+  final Logger logger = Logger(); // logging instead of print
+
   // Position known bool
   bool positionKnown = false;
   // Long of our position
@@ -13,7 +16,7 @@ class PositionProvider extends ChangeNotifier {
   late Timer _locationCheckerTimer;
 
   // Updating our position and notifies listeners of update
-  // Params: 
+  // Params:
   //  - newLongitude: double
   //  - newLatitude: double
   updatePosition(double newLongitude, double newLatitude) {
@@ -35,29 +38,28 @@ class PositionProvider extends ChangeNotifier {
 
   PositionProvider() {
     // Finds the position of us
-    _determinePosition()
-      .then(
+    _determinePosition().then(
+      (position) {
+        // Updates position after we find our position
+        updatePosition(position.longitude, position.latitude);
+      },
+      onError: (error) {
+        logger.e('Error with location: $error');
+      },
+    );
+
+    // Sets a periodic timer to keep finding our location and updating it
+    _locationCheckerTimer =
+        Timer.periodic(const Duration(seconds: 60), (timer) {
+      _determinePosition().then(
         (position) {
           // Updates position after we find our position
           updatePosition(position.longitude, position.latitude);
         },
         onError: (error) {
-          print('Error with location: $error');
+          logger.e('Error with location: $error');
         },
       );
-
-    // Sets a periodic timer to keep finding our location and updating it
-    _locationCheckerTimer = Timer.periodic(const Duration(seconds: 5), (timer) {
-      _determinePosition()
-        .then(
-          (position) {
-            // Updates position after we find our position
-            updatePosition(position.longitude, position.latitude);
-          },
-          onError: (error) {
-            print('Error with location: $error');
-          },
-        );
     });
   }
 
@@ -81,7 +83,7 @@ Future<Position> _determinePosition() async {
   serviceEnabled = await Geolocator.isLocationServiceEnabled();
   if (!serviceEnabled) {
     // Location services are not enabled don't continue
-    // accessing the position and request users of the 
+    // accessing the position and request users of the
     // App to enable the location services.
     return Future.error('Location services are disabled.');
   }
@@ -92,18 +94,18 @@ Future<Position> _determinePosition() async {
     if (permission == LocationPermission.denied) {
       // Permissions are denied, next time you could try
       // requesting permissions again (this is also where
-      // Android's shouldShowRequestPermissionRationale 
+      // Android's shouldShowRequestPermissionRationale
       // returned true. According to Android guidelines
       // your App should show an explanatory UI now.
       return Future.error('Location permissions are denied');
     }
   }
-  
+
   if (permission == LocationPermission.deniedForever) {
-    // Permissions are denied forever, handle appropriately. 
+    // Permissions are denied forever, handle appropriately.
     return Future.error(
-      'Location permissions are permanently denied, we cannot request permissions.');
-  } 
+        'Location permissions are permanently denied, we cannot request permissions.');
+  }
 
   // When we reach here, permissions are granted and we can
   // continue accessing the position of the device.

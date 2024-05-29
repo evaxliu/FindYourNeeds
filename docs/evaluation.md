@@ -20,16 +20,40 @@ SUS Scoring
 SUS Lecture: https://drive.google.com/drive/folders/1bSeklCHCWNWPquWsqZejYAy3Ep_TU0ly
 
 SUS Tester 1: Kengli Fu
-Commit Id Tested: 
-Task (Problem and Goal): 
+Commit Id Tested: db0b1c5d162d5d55f1b64dc5d26551ec5e6439ae
+Task (Problem and Goal): Find your nearest bathroom and get navigation to that place.
 Questions:
-1. 
+1. 4
+2. 1
+3. 5
+4. 1
+5. 3
+6. 2
+7. 4
+8. 1
+9. 4
+10. 1
+Overall SUS Score: 85, above average SUS score (avg: 68)
+Learnability Score: 100, highest learnability score
+Usability Score: 81.25, high usability score
 
 SUS Tester 2: Sai Anish Konanki
-Commit Id Tested: 
-Task (Problem and Goal): 
+Commit Id Tested: db0b1c5d162d5d55f1b64dc5d26551ec5e6439ae
+Task (Problem and Goal): Find your nearest bathroom and get navigation to that place.
 Questions:
-1. 
+1. 4
+2. 1
+3. 5
+4. 1
+5. 4
+6. 2
+7. 4
+8. 2
+9. 4
+10. 1
+Overall SUS Score: 85, above average SUS score (avg: 68)
+Learnability Score: 100, highest learnability score
+Usability Score: 81.25, high usability score
 
 SUS Tester 3: 
 Commit Id Tested: 
