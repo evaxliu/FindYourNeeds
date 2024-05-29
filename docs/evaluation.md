@@ -56,7 +56,7 @@ Learnability Score: 100, highest learnability score
 Usability Score: 81.25, high usability score
 
 SUS Tester 3: Hamid Ali
-Commit Id Tested:
+Commit Id Tested: 91bff28850c889ea4107f33127f82f20b67cf72f
 Task (Problem and Goal): Find a food bank, restroom, and library, and go to google maps app through this app
 Questions:
 1. 4
@@ -76,7 +76,7 @@ Usability Score: 81.25,
 
 
 SUS Tester 4: Yaphet Paulos
-Commit Id Tested:
+Commit Id Tested: 91bff28850c889ea4107f33127f82f20b67cf72f
 Task (Problem and Goal): Find a food bank, restroom, and library, and go to google maps app through this app
 Questions:
 1. 4
@@ -96,7 +96,7 @@ Usability Score: 78.125
 
 
 SUS Tester 5: Jayden Dunya
-Commit Id Tested:
+Commit Id Tested: 91bff28850c889ea4107f33127f82f20b67cf72f
 Task (Problem and Goal): Find a food bank, restroom, and library, and go to google maps app through this app
 Questions:
 1. 3
@@ -115,7 +115,7 @@ Learnability Score: 100
 Usability Score: 71.875
 
 SUS Tester 6: Aaleah Mendoza
-Commit Id Tested:
+Commit Id Tested: 91bff28850c889ea4107f33127f82f20b67cf72f
 Task (Problem and Goal): Find the nearest restroom and navigate to it.
 Questions:
 1. 5
@@ -135,7 +135,7 @@ Usability Score: 81.25
 
 
 SUS Tester 7: Betty Cheng
-Commit Id Tested:
+Commit Id Tested: 91bff28850c889ea4107f33127f82f20b67cf72f
 Task (Problem and Goal): Find the nearest restroom and navigate to it.
 Questions:
 1. 3
