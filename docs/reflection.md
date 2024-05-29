@@ -15,13 +15,12 @@ By using Geolocation, we pin point a user's current location and determine the d
 
 #### Querying web services (Google Service API)
 
-We used Google Service API, to access google maps and locations on the maps
+We used Google Service API, to access google maps and locations on the maps along with adding markers.
 
 
 #### Secure data persistence (remember which pin they last tapped on)
 
 If you reload the app or close the app, it will show the last location the user zoomed into or moved to.
-
 
 
 ## Describe what changed from your original concept to your final implementation. Why did you make those changes from your original design vision?
@@ -47,6 +46,12 @@ Google Maps <br/>
 https://stackoverflow.com/questions/72060995/flutter-listview-padding <br/>
 https://stackoverflow.com/questions/76064482/how-to-set-padding-on-text-widget <br/>
 https://docs.flutter.dev/ui/layout <br/>
+https://pub.dev/packages/google_maps_flutter_ios<br/>
+https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#0 <br/>
+https://medium.com/@ndubuisiaso/shared-preferences-in-flutter-a-guide-with-a-demonstrative-app-e03582ccce9a <br/>
+https://pub.dev/packages/shared_preferences <br/>
+https://stackoverflow.com/questions/55968628/google-maps-flutter-zoom-in-zoom-out <br/>
+https://developers.google.com/maps/flutter-package/map-with-marker <br/>
 
 ## What do you feel was the most valuable thing you learned in CSE 340 that will help you beyond this class, and why?
 Beemnet:
@@ -58,6 +63,9 @@ The most valuable thing I've learned in this class is how to consider and implem
 Ha Vi:
 The most valuable thing I learned in this class is working with a team on a project. I have not had the chance to work with a team on a project so I learned a lot about using Gitlab and making a functioning app. This will help me beyond this class because being able to work on code with multiple people poking at it is important in the real world. This will help during code reviewing and pushing actual products out into the public.
 
+Sulaiman: 
+The most valuable thing I learned in this course is the ability to develop and deploy (although not to the app store) apps using a cross platform framework like Flutter. I learned so much espically about mobile development. This is something I can take with me outside of academia now that I have this under my belt. Implementing an app from scratch can sound scary and this class made it easy, that is a lesson I will keep forever, something may seem tough at sight until you get into it.
+
 
 ## If you could go back and give yourself 2-3 pieces of advice at the beginning of the class, what would you say and why? (Alternatively: what 2-3 pieces of advice would you give to future students who take CSE 340 and why?)
 Beemnet:
@@ -68,3 +76,6 @@ I'd say 2-3 pieces of advice I would give to future students is to do their best
 
 Ha Vi:
 If I were to go back and give myself 2-3 pieces of advice, I would say to start the assignments earlier to fully take advantage of the resubmission cycle. With the resubmission cycle there, I slacked off and didn't put in any effort for the first submission, shortening myself from the full learning. Another advice would be to take more advantage of office hours. I know the TAs are super helpful but I chose to struggle through the class by myself with the help of some of my peers. However, trying to find time that aligns with my schedule to ask the teaching team would've alleviate some of the stress I gave myself.
+
+Sulaiman:
+Some advice I would give my past self taking this class would be to act like the resubmissions did not exist, or better yet to resubmit, I must submit the project initially to the best of my ability. This helps with staying on course and going beyond one submission. Something else I would recommend is to spend some time in the beginning to make sure I understand how flutter works generally and how deployment works, if I had a more solid foundation around this, debugging would be easier. Lastly, I would recommend to attend office hours, start early, and get over blockers quickly, this will allow one to keep up and understand all problems they come across.
