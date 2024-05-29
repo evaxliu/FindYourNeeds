@@ -13,6 +13,7 @@ class MapScreen extends StatefulWidget {
 
   @override
   // ignore: library_private_types_in_public_api
+  // makes the state for the MapScreen
   _MapScreenState createState() => _MapScreenState();
 }
 
@@ -26,19 +27,22 @@ class _MapScreenState extends State<MapScreen> {
   @override
   void initState() {
     super.initState();
+    // save map postoion
     _loadMapPosition();
   }
 
+  // Callback when the map is created
   void _onMapCreated(GoogleMapController controller) {
     mapController = controller;
     _loadMarkers();
     _loadMapPosition();
   }
-
+  // load markers from a JSON file
   Future<void> _loadMarkers() async {
     List<Location> locations = await loadLocations();
     Set<Marker> markers = {};
     for (Location location in locations) {
+      // Get custom icon for marker
       final BitmapDescriptor markerIcon = await _getIconForType(location.type);
       markers.add(
         Marker(
@@ -54,10 +58,11 @@ class _MapScreenState extends State<MapScreen> {
     }
 
     setState(() {
+      // updates the state with the loaded markers
       _markers = markers.toList();
     });
   }
-
+  // Function to get a custom icon based on the location type
   Future<BitmapDescriptor> _getIconForType(String type) async {
     IconData iconData;
     Color iconColor;
@@ -85,6 +90,7 @@ class _MapScreenState extends State<MapScreen> {
     return await _createCustomMarkerBitmap(iconData, iconColor);
   }
 
+  // creates a custom marker bitmap
   Future<BitmapDescriptor> _createCustomMarkerBitmap(
       IconData iconData, Color color) async {
     final PictureRecorder pictureRecorder = PictureRecorder();
@@ -99,6 +105,7 @@ class _MapScreenState extends State<MapScreen> {
       paint,
     );
 
+    // front end changes
     final textPainter = TextPainter(
       textDirection: TextDirection.ltr,
     );
@@ -123,9 +130,11 @@ class _MapScreenState extends State<MapScreen> {
         .endRecording()
         .toImage(size.toInt(), size.toInt());
     final data = await img.toByteData(format: ImageByteFormat.png);
+    // Return custom marker bitmap
     return BitmapDescriptor.fromBytes(data!.buffer.asUint8List());
   }
 
+  // zoom in
   void _zoomIn() {
     setState(() {
       _currentZoom++;
@@ -134,6 +143,7 @@ class _MapScreenState extends State<MapScreen> {
     });
   }
 
+  // zoom out
   void _zoomOut() {
     setState(() {
       _currentZoom--;
@@ -142,6 +152,7 @@ class _MapScreenState extends State<MapScreen> {
     });
   }
 
+  // saves the current map position and zoom level
   Future<void> _saveMapPosition() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setDouble('latitude', _currentCenter.latitude);
@@ -149,6 +160,7 @@ class _MapScreenState extends State<MapScreen> {
     await prefs.setDouble('zoom', _currentZoom);
   }
 
+  // loads the saved map position and zoom level
   Future<void> _loadMapPosition() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     double? latitude = prefs.getDouble('latitude');
@@ -198,6 +210,7 @@ class _MapScreenState extends State<MapScreen> {
                     _currentZoom = position.zoom;
                   },
                   onCameraIdle: () {
+                    // saves the map position when the camera stops moving
                     _saveMapPosition();
                   },
                   markers: allMarkers,
@@ -205,6 +218,7 @@ class _MapScreenState extends State<MapScreen> {
                 );
               } else {
                 return const Center(
+                  // shows loading indicator when position is unknown
                   child: CircularProgressIndicator(),
                 );
               }
@@ -215,8 +229,10 @@ class _MapScreenState extends State<MapScreen> {
             right: 16,
             child: Column(
               children: [
+                // zoom in button
                 _buildZoomButton(Icons.add, _zoomIn),
                 const SizedBox(height: 8),
+                // zoom out button
                 _buildZoomButton(Icons.remove, _zoomOut),
               ],
             ),
@@ -231,6 +247,7 @@ class _MapScreenState extends State<MapScreen> {
     );
   }
 
+  // Function to build zoom buttons
   Widget _buildZoomButton(IconData icon, VoidCallback onPressed) {
     return Material(
       color: Colors.white,

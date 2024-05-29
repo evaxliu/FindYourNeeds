@@ -1,3 +1,5 @@
+
+// class represents a location with various attributes.
 class Location {
   final String address;
   final bool laundry;
@@ -27,6 +29,7 @@ class Location {
     required this.type,
   });
 
+  // creates a location instance from a JSON map.
   factory Location.fromJson(Map<String, dynamic> json) {
     String locationType;
     if (json['type'] == 'Restroom') {
@@ -40,7 +43,7 @@ class Location {
     } else {
       locationType = 'Other';
     }
-
+    // returns a new Location instance with the values from the JSON map.
     return Location(
       address: json['address'],
       laundry: json['laundry'] == 'Yes',
