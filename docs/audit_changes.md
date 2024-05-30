@@ -1,0 +1,1 @@
+No changes in response to the audit. Almost everything passed the audit. Auditor mentioned the unlikeliness of the text being too small to cause any issues so we decided to keep the app as is.
