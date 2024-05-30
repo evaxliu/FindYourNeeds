@@ -1,22 +1,28 @@
 import 'package:flutter/material.dart';
 
 class LegendWidget extends StatelessWidget {
+  // Constructor: Specify a key for the widget
   const LegendWidget({super.key});
 
+  // A widget that displays a legend for map markers.
+  // Parameters:
+  //  - context: BuildContext
+  // Returns a container used to provide a background and padding for the legend items
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(16.0),
       decoration: BoxDecoration(
         color: Colors.white.withOpacity(0.7),
         borderRadius: BorderRadius.circular(8.0),
       ),
+      // current location icon
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-            Semantics(
+              Semantics(
                 label: 'Current Location',
                 child: const Icon(
                   Icons.location_on,
@@ -28,9 +34,10 @@ class LegendWidget extends StatelessWidget {
               const Text('Current Location', semanticsLabel: 'Current Location'),
             ],
           ),
+          // restroom icon
           Row(
             children: [
-            Semantics(
+              Semantics(
                 label: 'Restroom',
                 child: const Icon(
                   Icons.family_restroom,
@@ -42,20 +49,22 @@ class LegendWidget extends StatelessWidget {
               const Text('Restroom', semanticsLabel: 'Restroom'),
             ],
           ),
+          // general hygiene icon
           Row(
             children: [
               Semantics(
-                  label: 'General Hygiene',
-                  child: const Icon(
-                    Icons.bathtub,
-                    color: Colors.purple,
-                    size: 40,
-                  ),
+                label: 'General Hygiene',
+                child: const Icon(
+                  Icons.bathtub,
+                  color: Colors.purple,
+                  size: 40,
+                ),
               ),
               const SizedBox(width: 4.0),
               const Text('General Hygiene', semanticsLabel: 'General Hygiene'),
             ],
           ),
+          // library icon
           Row(
             children: [
               Semantics(
@@ -70,16 +79,16 @@ class LegendWidget extends StatelessWidget {
               const Text('Library', semanticsLabel: 'Library'),
             ],
           ),
+          // food bank icon
           Row(
             children: [
               Semantics(
-                label: 'Food Bank',
-                child: const Icon(
-                  Icons.food_bank,
-                  color: Colors.green,
-                  size: 40,
-                )
-              ),
+                  label: 'Food Bank',
+                  child: const Icon(
+                    Icons.food_bank,
+                    color: Colors.green,
+                    size: 40,
+                  )),
               const SizedBox(width: 4.0),
               const Text('Food Bank', semanticsLabel: 'Food Bank'),
             ],
