@@ -3,10 +3,16 @@ import 'find_your_needs_app.dart';
 import 'package:final_project_app/models/locations_db.dart';
 
 class HomePage extends StatelessWidget {
-  final LocationsDB locations;
+  final LocationsDB locations; // Declaring an instance variable to store the LocationsDB object
 
+  // Constructor:
+  // Accepts a key parameter and a locations parameter
   const HomePage({super.key, required this.locations});
 
+  // Overrides the build method to define the widget tree.
+  // Parameters:
+  //   - context: The BuildContext object representing the location of the widget in the tree.
+  // Returns a Scaffold widget with a white background color and a centered Column.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,19 +21,22 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            // title
             const Text(
-              'FINDING\nYOUR\nNEEDS',
+              'FIND\nYOUR\nNEEDS',
               style: TextStyle(
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.center,
-              semanticsLabel: 'Finding Your Needs',
+              semanticsLabel: 'Find Your Needs',
             ),
             const SizedBox(height: 40),
+            // row of icons representing the different needs icons
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                // current location icon
                 Semantics(
                   label: 'Current Location',
                   child: const Icon(
@@ -37,6 +46,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(width: 20),
+                // restroom icon
                 Semantics(
                   label: 'Restroom',
                   child: const Icon(
@@ -46,35 +56,42 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(width: 20),
+                // general hygiene icon
                 Semantics(
                   label: 'General Hygiene',
                   child: const Icon(
                     Icons.bathtub,
                     color: Colors.purple,
                     size: 40,
+                    semanticLabel: 'General Hygiene',
                   ),
                 ),
                 const SizedBox(width: 20),
+                // library icon
                 Semantics(
                   label: 'Library',
                   child: const Icon(
                     Icons.local_library,
                     color: Colors.orange,
                     size: 40,
+                    semanticLabel: 'Library',
                   ),
                 ),
                 const SizedBox(width: 20),
+                // food bank icon
                 Semantics(
                   label: 'Food Bank',
                   child: const Icon(
                     Icons.food_bank,
                     color: Colors.green,
                     size: 40,
+                    semanticLabel: 'Food Bank',
                   ),
                 ),
               ],
             ),
             const SizedBox(height: 30),
+            // start search button
             Center(
               child: ElevatedButton.icon(
                 onPressed: () {
