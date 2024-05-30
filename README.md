@@ -13,16 +13,16 @@ On some READMEs, you may see small images that convey metadata, such as whether 
 ### Screenshots
 
 #### Home Page
-![Home Page](assets/visuals/home_page.png)
+<img src="assets/visuals/home_page.png" alt="Home Page" width="600"/>
 
 #### Main View
-![Main View](assets/visuals/main_view.png)
+<img src="assets/visuals/main_view.png" alt="Main View" width="600"/>
 
 #### More Info
-![More Info](assets/visuals/more_info.png)
+<img src="assets/visuals/more_info.png" alt="More Info" width="600"/>
 
 #### Navigation Feature
-![Navigation Feature](assets/visuals/navigation_feature.png)
+<img src="assets/visuals/navigation_feature.png" alt="Navigation Feature" width="600"/>
 
 ## Installation
 todo?
