@@ -1,13 +1,10 @@
 # final_project
 
 ## Name
-Find your Needs
+Find Your Needs
 
 ## Description
-todo?
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Find Your Needs (FYN) is an app for an aasier approach to finding basic needs. Whether you are homeless or have trouble accessing general resources such as food, hygiene, and libraries. FYN includes a real time map with all these resources in the greater seattle area along with a list to scroll through these resources, along with the ability to directly navigate to them.
 
 ## Visuals
 ### Screenshots
