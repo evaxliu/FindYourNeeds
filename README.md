@@ -4,7 +4,7 @@
 Find your Needs
 
 ## Description
-todo
+todo?
 
 ## Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
@@ -25,32 +25,37 @@ On some READMEs, you may see small images that convey metadata, such as whether 
 <img src="assets/visuals/navigation_feature.png" alt="Navigation Feature" width="175"/>
 
 ## Installation
-todo?
+- clone repo above
+- using terminal in project root, do the following:
+    - flutter pub get
+- navigate to ios directory and install ios dependencies:
+    - cd ios
+    - pod install
+
+- if you have issues do the following in the projects root:
+    - flutter clean
+    - flutter build ios
 
 ## Usage
-- all in one place navigate to various public resources
+- All in one place navigate to various public resources with visuals including a map and a list along with a legend for reference. Also, has the ability to start direct navigation to a slected resource/location using your preferred phone map.
 
 ## Support
 email: sshahb@uw.edu for any support and any issues.
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Create a merge request or git action to contribute to Find Your Needs, and we will follow up.
 
 ## Authors and acknowledgment
-Sulaiman
-Ha Vi
-Eva
+Sulaiman, 
+Ha Vi, 
+Eva, 
 Beemnet 
 
 ## License
 Reach out to support for licensing and using.
 
 ## Project status
-Find Your Needs - Complete including stretch goals.
+Find Your Needs - App is complete including stretch goals.
 
 ## Data Design and Data Flow
 ### Data Design
@@ -98,3 +103,12 @@ https://stackoverflow.com/questions/49959617/flutter-how-do-you-make-a-card-clic
 Ben Shapiro, CSE 340 Staff and Eva's code from Journal Assignment. https://gitlab.cs.washington.edu/cse340-24spring-students/5_journal-evaliu02 <br/>
 https://dart.dev/language/branches#switch-statements <br/>
 Google Maps <br/>
+https://stackoverflow.com/questions/72060995/flutter-listview-padding <br/>
+https://stackoverflow.com/questions/76064482/how-to-set-padding-on-text-widget <br/>
+https://docs.flutter.dev/ui/layout <br/>
+https://pub.dev/packages/google_maps_flutter_ios<br/>
+https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#0 <br/>
+https://medium.com/@ndubuisiaso/shared-preferences-in-flutter-a-guide-with-a-demonstrative-app-e03582ccce9a <br/>
+https://pub.dev/packages/shared_preferences <br/>
+https://stackoverflow.com/questions/55968628/google-maps-flutter-zoom-in-zoom-out <br/>
+https://developers.google.com/maps/flutter-package/map-with-marker <br/>
