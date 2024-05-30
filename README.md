@@ -41,6 +41,44 @@ Reach out to support for licensing and using.
 Find Your Needs - Complete including stretch goals.
 
 ## Data Design and Data Flow
+### Data Design
+
+*   **Locations Database**: Collection of location data structures gotten from a JSON file (assets/location.json). Each location object has attributes such as name, latitude, longitude, type, and description. This data is loaded into the app on startup and is the main data structure from which map markers and list items are made and shown.
+    
+*   **Markers**: List of markers created based on the locations data. Each marker in the map corresponds to a location in the data, with properties such as position (latitude, longitude), icon, and info window content that displays details on tap directly on the map.
+
+Keeping track of consistently:
+- Users current location (latitude and longitude)
+- Last shared preference on the map for data persistence
+
+#### Data Flow
+
+*   **Provider for Position and Location Data**:
+    
+    *   The **PositionProvider** is used to manage and show the user's current geolocation throughout the app (map current location and list for distance).        
+    *   Listens for changes in the user's position using geolocation services from ios.
+        
+    *   When the position changes, **PositionProvider** updates the current latitude and longitude.
+                
+*   **Reactive Updates**:
+    
+    *   Changes in user location or interactions with the map (such as selecting a marker).
+        
+    *   Tapping on a location in the list opens a view with more details regarding that location.
+
+    *   Ability to navigate to phones actual map app and instantly provides navigation details.
+        
+*   **Integration with Map API**:
+    
+    *   Google Maps API is used to provide a visual experience along with a list visual for users.
+        
+    *   Markers are put on the map based on the locations data (assets/location.json). Icons are used to differentiate between types of locations, with a legend for reference.
+        
+    *   Map API works with the **PositionProvider** to update the users current location marker.
+        
+    *   The map view reacts to user interactions such as zooming in and out and moving view to current location using the pin point button.
+        
+    *   App saves last known map position and zoom level to ensure data persistence, accomplished by using shared preferences for data persistence.
 
 ## Resources Used
 Ben Shapiro, CSE 340 Staff and Eva's code from Food Finder Assigment. https://gitlab.cs.washington.edu/cse340-24spring-students/4_food_finder-evaliu02 <br/>
