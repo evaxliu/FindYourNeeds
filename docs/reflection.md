@@ -15,8 +15,12 @@ By using Geolocation, we pin point a user's current location and determine the d
 
 #### Querying web services (Google Service API)
 
+We used Google Service API, to access google maps and locations on the maps along with adding markers.
+
 
 #### Secure data persistence (remember which pin they last tapped on)
+
+If you reload the app or close the app, it will show the last location the user zoomed into or moved to.
 
 
 ## Describe what changed from your original concept to your final implementation. Why did you make those changes from your original design vision?
@@ -26,6 +30,8 @@ Our original concept of the implementation was a simple map, that shows where re
 The research we did was how we deepened our understanding of this topic.
 Like the thesis by Nava gave us awareness of how inaccessible hygienic products and resources are. We see the high rates of infections and diseases that come from not having the resources to be clean.
 In " Journal of Social Distress and the Homeless", we see how an app like this can be beneficial, since their research saw that 94% of homeless adults owned a cellphone, and half owned a smartphone, if they have access to smartphones an app that shows all locations with resources could help some people.
+In "Opinion: Starbucks may soon close its bathrooms to the public. Good hygiene is a human right", we can see how public bathrooms are seen as a basic human right but not many cities care. This creates a sense of vulnerability for the population who don't have any other options for personal hygiene and other resources.
+In "Homelessness & Health: What's the Connection?", there is an increase in health problems with those who are experiencing homelessness due to the lack of access to safe and clean sanitation facilities.
 
 ## Describe two areas of future work for your app, including how you could increase the accessibility and usability of this app
 One area for future work is reducing the app's reliance on cellular data even more by switching from Google Maps API to creating our own map of location information and storing it as app storage locally on a person's machine. This avoids a possible invisible paywall since cellular data costs a lot of money.
@@ -40,13 +46,25 @@ Google Maps <br/>
 https://stackoverflow.com/questions/72060995/flutter-listview-padding <br/>
 https://stackoverflow.com/questions/76064482/how-to-set-padding-on-text-widget <br/>
 https://docs.flutter.dev/ui/layout <br/>
+https://pub.dev/packages/google_maps_flutter_ios<br/>
+https://codelabs.developers.google.com/codelabs/google-maps-in-flutter#0 <br/>
+https://medium.com/@ndubuisiaso/shared-preferences-in-flutter-a-guide-with-a-demonstrative-app-e03582ccce9a <br/>
+https://pub.dev/packages/shared_preferences <br/>
+https://stackoverflow.com/questions/55968628/google-maps-flutter-zoom-in-zoom-out <br/>
+https://developers.google.com/maps/flutter-package/map-with-marker <br/>
 
 ## What do you feel was the most valuable thing you learned in CSE 340 that will help you beyond this class, and why?
 Beemnet:
-I think the most valuable thing I've learned in this class is how to test my own product with the accessibility documentation. Since every class, you write code and make apps or finish projects but it has never been a requirement or a thought to do that. It is fairly simple too with the contrast and semantics (or is it that flutter makes it easy). I’d say it was more of a mindset changer. 
+I think the most valuable thing I've learned in this class is how to test my own product with the accessibility documentation. Since every class, you write code and make apps or finish projects but it has never been a requirement or a thought to do that. It is fairly simple too with the contrast and semantics (or is it that flutter makes it easy). I’d say it was more of a mindset changer.
 
 Eva:
 The most valuable thing I've learned in this class is how to consider and implement accessibility within my software. While I've had experience working with a team to create a website that is more friendly to people from a specific technical background, I never considered people who have vision disabilities. This class opened my mind to becoming more inclusive through the software that I create.
+
+Ha Vi:
+The most valuable thing I learned in this class is working with a team on a project. I have not had the chance to work with a team on a project so I learned a lot about using Gitlab and making a functioning app. This will help me beyond this class because being able to work on code with multiple people poking at it is important in the real world. This will help during code reviewing and pushing actual products out into the public.
+
+Sulaiman: 
+The most valuable thing I learned in this course is the ability to develop and deploy (although not to the app store) apps using a cross platform framework like Flutter. I learned so much espically about mobile development. This is something I can take with me outside of academia now that I have this under my belt. Implementing an app from scratch can sound scary and this class made it easy, that is a lesson I will keep forever, something may seem tough at sight until you get into it.
 
 
 ## If you could go back and give yourself 2-3 pieces of advice at the beginning of the class, what would you say and why? (Alternatively: what 2-3 pieces of advice would you give to future students who take CSE 340 and why?)
@@ -55,3 +73,9 @@ The advice I would give to future students if they took 142/143 (not sure how 12
 
 Eva:
 I'd say 2-3 pieces of advice I would give to future students is to do their best attempt during their first submission of the homeworks so they can maximize learning from the feedback for their resubmissions. I learned a lot about what I missed and need to remember considering when obtaining feedback for the assignments where I tried my best. I would also recommend future students to take good advantage of office hours and EdStem, this is more so general advice, but the TAs and professor were super helpful in answering any questions I had, even ones they never encountered before. For my third advice, I'd advise future students to not feel too daunted about the class. The class is very friendly with documentation and spec instructions during the homeworks so work hard and have fun!
+
+Ha Vi:
+If I were to go back and give myself 2-3 pieces of advice, I would say to start the assignments earlier to fully take advantage of the resubmission cycle. With the resubmission cycle there, I slacked off and didn't put in any effort for the first submission, shortening myself from the full learning. Another advice would be to take more advantage of office hours. I know the TAs are super helpful but I chose to struggle through the class by myself with the help of some of my peers. However, trying to find time that aligns with my schedule to ask the teaching team would've alleviate some of the stress I gave myself.
+
+Sulaiman:
+Some advice I would give my past self taking this class would be to act like the resubmissions did not exist, or better yet to resubmit, I must submit the project initially to the best of my ability. This helps with staying on course and going beyond one submission. Something else I would recommend is to spend some time in the beginning to make sure I understand how flutter works generally and how deployment works, if I had a more solid foundation around this, debugging would be easier. Lastly, I would recommend to attend office hours, start early, and get over blockers quickly, this will allow one to keep up and understand all problems they come across.
