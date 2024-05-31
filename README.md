@@ -4,7 +4,7 @@
 Find Your Needs
 
 ## Description
-Find Your Needs (FYN) is an app for an aasier approach to finding basic needs. Whether you are homeless or have trouble accessing general resources such as food, hygiene, and libraries. FYN includes a real time map with all these resources in the greater seattle area along with a list to scroll through these resources, along with the ability to directly navigate to them.
+Find Your Needs (FYN) is an app for an easier approach to finding basic needs. Whether you are homeless or have trouble accessing general resources such as food, hygiene, and libraries. FYN includes a real time map with all these resources in the greater seattle area along with a list to scroll through these resources, along with the ability to directly navigate to them.
 
 ## Visuals
 ### Screenshots
